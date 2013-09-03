@@ -1,9 +1,23 @@
 <html>
-<head><title></title></head>
+{% include 'header.html' %}
 
 <body>
 
-{{ content }}
+{% include 'navbar.html' %}
+
+<br />
+
+{% if section == 'weblog' %}
+    {% include 'weblog.html' %}
+{% elif section == 'contraptions' %}
+    {% include 'contraptions.html' %}
+{% elif section == 'contact' %}
+    {% include 'contact.html' %}
+{% endif %}
+    
+{% load static %}
+<script src="{% static 'bootstrap-3.0.0/assets/js/jquery.js' %}"></script>
+<script src="{% static 'bootstrap-3.0.0/dist/js/bootstrap.min.js'%}"></script>
 
 </body>
 </html>

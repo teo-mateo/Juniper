@@ -57,6 +57,25 @@
     <Folder Include="media\bootstrap-3.0.0\assets\js" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="media\bootstrap-3.0.0\assets\css\docs.css" />
+    <Content Include="media\bootstrap-3.0.0\assets\css\navbar-fixed-top.css" />
+    <Content Include="media\bootstrap-3.0.0\assets\css\pygments-manni.css" />
+    <Content Include="media\bootstrap-3.0.0\assets\ico\apple-touch-icon-114-precomposed.png" />
+    <Content Include="media\bootstrap-3.0.0\assets\ico\apple-touch-icon-144-precomposed.png" />
+    <Content Include="media\bootstrap-3.0.0\assets\ico\apple-touch-icon-57-precomposed.png" />
+    <Content Include="media\bootstrap-3.0.0\assets\ico\apple-touch-icon-72-precomposed.png" />
+    <Content Include="media\bootstrap-3.0.0\assets\ico\favicon.png" />
+    <Content Include="media\bootstrap-3.0.0\assets\js\application.js" />
+    <Content Include="media\bootstrap-3.0.0\assets\js\customizer.js" />
+    <Content Include="media\bootstrap-3.0.0\assets\js\filesaver.js" />
+    <Content Include="media\bootstrap-3.0.0\assets\js\holder.js" />
+    <Content Include="media\bootstrap-3.0.0\assets\js\html5shiv.js" />
+    <Content Include="media\bootstrap-3.0.0\assets\js\jquery.js" />
+    <Content Include="media\bootstrap-3.0.0\assets\js\jszip.js" />
+    <Content Include="media\bootstrap-3.0.0\assets\js\less.js" />
+    <Content Include="media\bootstrap-3.0.0\assets\js\raw-files.js" />
+    <Content Include="media\bootstrap-3.0.0\assets\js\respond.min.js" />
+    <Content Include="media\bootstrap-3.0.0\assets\js\uglify.js" />
     <Content Include="media\bootstrap-3.0.0\dist\css\bootstrap-theme.css" />
     <Content Include="media\bootstrap-3.0.0\dist\css\bootstrap-theme.min.css" />
     <Content Include="media\bootstrap-3.0.0\dist\css\bootstrap.css" />
@@ -68,8 +87,13 @@
     <Content Include="media\bootstrap-3.0.0\dist\js\bootstrap.js" />
     <Content Include="media\bootstrap-3.0.0\dist\js\bootstrap.min.js" />
     <Content Include="media\Placeholder.x" />
+    <Content Include="templates\contact.html" />
+    <Content Include="templates\contraptions.html" />
+    <Content Include="templates\header.html" />
     <Content Include="templates\index.html" />
+    <Content Include="templates\navbar.html" />
     <Content Include="templates\Placeholder.x" />
+    <Content Include="templates\weblog.html" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Python Tools\Microsoft.PythonTools.Django.targets" />
   <ProjectExtensions>
