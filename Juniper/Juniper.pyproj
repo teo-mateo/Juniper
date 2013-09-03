@@ -28,6 +28,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Juniper\views.py" />
     <Compile Include="manage.py" />
     <Compile Include="Juniper\__init__.py" />
     <Compile Include="Juniper\settings.py" />
@@ -44,6 +45,31 @@
   <ItemGroup>
     <Folder Include="Juniper\" />
     <Folder Include="media\" />
+    <Folder Include="templates\" />
+    <Folder Include="media\bootstrap-3.0.0" />
+    <Folder Include="media\bootstrap-3.0.0\dist" />
+    <Folder Include="media\bootstrap-3.0.0\dist\css" />
+    <Folder Include="media\bootstrap-3.0.0\dist\fonts" />
+    <Folder Include="media\bootstrap-3.0.0\dist\js" />
+    <Folder Include="media\bootstrap-3.0.0\assets" />
+    <Folder Include="media\bootstrap-3.0.0\assets\css" />
+    <Folder Include="media\bootstrap-3.0.0\assets\ico" />
+    <Folder Include="media\bootstrap-3.0.0\assets\js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="media\bootstrap-3.0.0\dist\css\bootstrap-theme.css" />
+    <Content Include="media\bootstrap-3.0.0\dist\css\bootstrap-theme.min.css" />
+    <Content Include="media\bootstrap-3.0.0\dist\css\bootstrap.css" />
+    <Content Include="media\bootstrap-3.0.0\dist\css\bootstrap.min.css" />
+    <Content Include="media\bootstrap-3.0.0\dist\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="media\bootstrap-3.0.0\dist\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="media\bootstrap-3.0.0\dist\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="media\bootstrap-3.0.0\dist\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="media\bootstrap-3.0.0\dist\js\bootstrap.js" />
+    <Content Include="media\bootstrap-3.0.0\dist\js\bootstrap.min.js" />
+    <Content Include="media\Placeholder.x" />
+    <Content Include="templates\index.html" />
+    <Content Include="templates\Placeholder.x" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Python Tools\Microsoft.PythonTools.Django.targets" />
   <ProjectExtensions>
