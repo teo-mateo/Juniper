@@ -4,3 +4,4 @@ a
 a
 anewfile.txt
 dummy content
+some other dummy content
