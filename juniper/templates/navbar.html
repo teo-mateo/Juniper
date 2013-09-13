@@ -6,13 +6,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="{% url index %}">Teodor B&#226;rdici</a>
+          <a class="navbar-brand" href="{% url 'index' %}">Teodor B&#226;rdici</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li {% if section == "weblog" %} class="active" {% endif %}><a href="{% url section_weblog %}">Weblog</a></li>
-            <li {% if section == "contraptions" %} class="active" {% endif %}><a href="{% url section_contraptions %}">Contraptions</a></li>
-            <li {% if section == "contact" %} class="active" {% endif %}><a href="{% url section_contact %}">Contact</a></li>
+            <li {% if section == "weblog" %} class="active" {% endif %}><a href="{% url 'section_weblog' %}">Weblog</a></li>
+            <li {% if section == "contraptions" %} class="active" {% endif %}><a href="{% url 'section_contraptions' %}">Contraptions</a></li>
+            <li {% if section == "contact" %} class="active" {% endif %}><a href="{% url 'section_contact' %}">Contact</a></li>
           </ul>
         </div><!--/.nav-collapse -->
     </div>
