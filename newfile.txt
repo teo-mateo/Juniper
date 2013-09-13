@@ -1,2 +1,6 @@
-newfile.txt
+aaa\
+a
+a
+a
+anewfile.txt
 dummy content
