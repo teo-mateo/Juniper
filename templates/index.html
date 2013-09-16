@@ -1,10 +1,15 @@
+<!DOCTYPE HTML>
+
 <html>
 {% include 'header.html' %}
 
 <body>
 
-{% include 'navbar.html' %}
+<div class="container">
 
+<div class="header">
+{% include 'navbar.html' %}
+</div>
 <br />
 
 {% if section == 'weblog' %}
@@ -13,11 +18,15 @@
     {% include 'contraptions.html' %}
 {% elif section == 'contact' %}
     {% include 'contact.html' %}
+{% else %}
+    sectiunea este: {{ section }}
 {% endif %}
     
 {% load static %}
 <script src="{% static 'bootstrap-3.0.0/assets/js/jquery.js' %}"></script>
 <script src="{% static 'bootstrap-3.0.0/dist/js/bootstrap.min.js'%}"></script>
+
+</div>
 
 </body>
 </html>

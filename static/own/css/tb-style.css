@@ -1,0 +1,22 @@
+/* used for the upper-right section title */
+.right-aligned
+{
+    position:absolute;
+    right:0px;
+    width:300px;
+    background-color:#b0e0e6;
+    padding: 10px;
+    color:#336666;
+    font-size: 14pt;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-topright: 15px;
+    -webkit-border-radius-topleft: 15px;
+    -webkit-border-radius-topright: 15px;
+}
+
+.dotted-hr {
+  border-top: 1px dotted #336666;
+  color: #336666;
+  background-color: #fff;
+  height: 1px;
+}
