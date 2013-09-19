@@ -1,3 +1,10 @@
+{% if md_entries %}
+    Number of athletes: {{ md_entries|length }}
+{% else %}
+    No entries.
+{% endif %}
+
+
 {% for entry in md_entries %}
     {% if entry.post_visible %}
         <div class="weblog-content">

@@ -2,40 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" name="Default" comment="bootstrap">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/posts/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/views/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/posts/entry.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jquery/jquery-1.10.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/markdown/post1 - Copy (2).md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/markdown/post1 - Copy.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/posts/markdown/post1.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/juniper/settingsView.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/views/weblog.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/weblog_all_entries.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/weblog_single_entry.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/weblog_toc.html" />
+      <change type="DELETED" beforePath="F:\_work\gits\juniper\posts\markdown\post1 - Copy (2).md" afterPath="" />
+      <change type="DELETED" beforePath="F:\_work\gits\juniper\posts\markdown\post1 - Copy.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\_work\gits\juniper\posts\markdown\post1.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/contact.html" afterPath="$PROJECT_DIR$/templates/contact.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/contraptions.html" afterPath="$PROJECT_DIR$/templates/contraptions.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/header.html" afterPath="$PROJECT_DIR$/templates/header.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/juniper/settings.py" afterPath="$PROJECT_DIR$/juniper/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/own/css/tb-style.css" afterPath="$PROJECT_DIR$/static/own/css/tb-style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/juniper/urls.py" afterPath="$PROJECT_DIR$/juniper/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/weblog.html" afterPath="$PROJECT_DIR$/templates/weblog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/weblog_all_entries.html" afterPath="$PROJECT_DIR$/templates/weblog_all_entries.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="F:\_work\gits\juniper\blog\views.py" afterPath="$PROJECT_DIR$/blog/views_old.py" />
     </list>
     <ignored path="juniper.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379400066026" ignored="false" />
+    <file path="/Dummy.txt" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379588154077" ignored="false" />
     <file path="/urls.py" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379452365136" ignored="false" />
     <file path="/settings.py" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379400644874" ignored="false" />
-    <file path="/contact.html" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379450269745" ignored="false" />
+    <file path="/contact.html" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379587974079" ignored="false" />
     <file path="/weblog.html" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379586854195" ignored="false" />
     <file path="/tb-style.css" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379585245614" ignored="false" />
     <file path="/header.html" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379448518670" ignored="false" />
-    <file path="/contraptions.html" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379448259733" ignored="false" />
+    <file path="/contraptions.html" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379587946966" ignored="false" />
     <file path="/navbar.html" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379336829265" ignored="false" />
     <file path="/index.html" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379587160014" ignored="false" />
     <file path="/__init__.py" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379341701971" ignored="false" />
@@ -54,7 +38,7 @@
     <file path="/a.py" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379445030247" ignored="false" />
     <file path="/post1 - Copy.md" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379585023708" ignored="false" />
     <file path="/weblog_toc.html" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379452014106" ignored="false" />
-    <file path="/weblog_all_entries.html" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379586123053" ignored="false" />
+    <file path="/weblog_all_entries.html" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379588064611" ignored="false" />
     <file path="/weblog_single_entry.html" changelist="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" time="1379587624760" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +67,7 @@
       <file leaf-file-name="weblog.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/weblog.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="-11.346154">
+            <state line="18" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,16 +76,16 @@
       <file leaf-file-name="weblog_single_entry.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/weblog_single_entry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="64" selection-start="465" selection-end="465" vertical-scroll-proportion="-7.8461537">
+            <state line="12" column="64" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="weblog_all_entries.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="weblog_all_entries.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/weblog_all_entries.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="57" selection-start="648" selection-end="648" vertical-scroll-proportion="-9.153846">
+            <state line="7" column="29" selection-start="138" selection-end="138" vertical-scroll-proportion="0.23529412">
               <folding />
             </state>
           </provider>
@@ -111,9 +95,7 @@
         <entry file="file://$PROJECT_DIR$/juniper/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="23" column="42" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -122,28 +104,33 @@
         <entry file="file://$PROJECT_DIR$/blog/views/weblog.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="28" column="0" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="entry.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="contraptions.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/contraptions.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="31" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="4" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entry.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/posts/entry.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="56" column="89" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.529976">
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tb-style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/own/css/tb-style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="81" column="1" selection-start="1346" selection-end="1346" vertical-scroll-proportion="-9.56">
+            <state line="56" column="89" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,16 +139,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="6" selection-start="547" selection-end="547" vertical-scroll-proportion="-6.45098">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post1.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/posts/markdown/post1.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="33" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
+            <state line="26" column="6" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -171,9 +149,7 @@
         <entry file="file://$PROJECT_DIR$/blog/views_old.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#45#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -199,19 +175,19 @@
         <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/blog/views_old.py" />
         <option value="$PROJECT_DIR$/templates/header.html" />
-        <option value="$PROJECT_DIR$/templates/contact.html" />
-        <option value="$PROJECT_DIR$/templates/contraptions.html" />
         <option value="$PROJECT_DIR$/templates/weblog_toc.html" />
         <option value="$PROJECT_DIR$/posts/markdown/post1.md" />
         <option value="$PROJECT_DIR$/posts/markdown/post1 - Copy.md" />
         <option value="$PROJECT_DIR$/static/own/css/tb-style.css" />
-        <option value="$PROJECT_DIR$/templates/weblog_all_entries.html" />
         <option value="$PROJECT_DIR$/juniper/urls.py" />
         <option value="$PROJECT_DIR$/templates/weblog.html" />
         <option value="$PROJECT_DIR$/blog/views/weblog.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/weblog_single_entry.html" />
         <option value="$PROJECT_DIR$/blog/posts/entry.py" />
+        <option value="$PROJECT_DIR$/templates/contact.html" />
+        <option value="$PROJECT_DIR$/templates/contraptions.html" />
+        <option value="$PROJECT_DIR$/templates/weblog_all_entries.html" />
       </list>
     </option>
   </component>
@@ -269,6 +245,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -386,24 +363,6 @@
               <option name="myItemId" value="posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="markdown" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -471,18 +430,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.sourceCode.Python" />
+    <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -640,8 +598,8 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Django server.juniper" />
-      <item index="1" class="java.lang.String" itemvalue="Python.entry" />
+      <item index="0" class="java.lang.String" itemvalue="Python.entry" />
+      <item index="1" class="java.lang.String" itemvalue="Django server.juniper" />
     </list>
     <recent_temporary>
       <list size="1">
@@ -742,17 +700,17 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23115578" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67001677" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26287878" sideWeight="0.7772194" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26742426" sideWeight="0.7772194" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22278057" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22278057" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23115578" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -829,97 +787,43 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/contact.html">
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="33" selection-end="33" vertical-scroll-proportion="-1.3076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/contraptions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="20" selection-end="20" vertical-scroll-proportion="-1.3076923">
+        <state line="26" column="6" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="119" selection-start="639" selection-end="686" vertical-scroll-proportion="-7.8461537">
-          <folding />
-        </state>
+        <state line="12" column="119" selection-start="639" selection-end="686" vertical-scroll-proportion="-7.8461537" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/weblog_toc.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="308" selection-end="308" vertical-scroll-proportion="-5.8846154">
-          <folding />
-        </state>
+        <state line="9" column="6" selection-start="308" selection-end="308" vertical-scroll-proportion="-5.8846154" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/angular/angular.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10385" column="27" selection-start="337434" selection-end="337434" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/posts/markdown/post1 - Copy.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="69" selection-end="69" vertical-scroll-proportion="0.08153477">
-          <folding />
-        </state>
+        <state line="10385" column="27" selection-start="337434" selection-end="337434" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/own/css/tb-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="1" selection-start="1346" selection-end="1346" vertical-scroll-proportion="-9.56">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/posts/markdown/post1.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views_old.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/weblog_all_entries.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="57" selection-start="648" selection-end="648" vertical-scroll-proportion="-9.153846">
-          <folding />
-        </state>
+        <state line="81" column="1" selection-start="1346" selection-end="1346" vertical-scroll-proportion="-9.56" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/juniper/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="42" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/weblog.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="-11.346154">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="6" selection-start="547" selection-end="547" vertical-scroll-proportion="-6.45098">
+        <state line="26" column="6" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -927,25 +831,56 @@
     <entry file="file://$PROJECT_DIR$/blog/views/weblog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="753" selection-end="753" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/weblog_single_entry.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="64" selection-start="465" selection-end="465" vertical-scroll-proportion="-7.8461537">
+        <state line="12" column="64" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/posts/entry.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="89" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.529976">
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state line="56" column="89" selection-start="2025" selection-end="2025" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="4" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contraptions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="31" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/weblog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="297" selection-end="297" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views_old.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/weblog_all_entries.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="29" selection-start="138" selection-end="138" vertical-scroll-proportion="0.23529412">
+          <folding />
         </state>
       </provider>
     </entry>
