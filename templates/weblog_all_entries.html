@@ -1,6 +1,4 @@
-{% if md_entries %}
-    Number of athletes: {{ md_entries|length }}
-{% else %}
+{% if not md_entries %}
     No entries.
 {% endif %}
 
