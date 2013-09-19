@@ -157,3 +157,8 @@ LOGGING = {
         },
     }
 }
+
+# Custom settings
+
+# Where all the blog entries are
+MARKDOWN_DIR = os.path.join(os.path.dirname(__file__), '..', 'posts/markdown').replace('\\','/')

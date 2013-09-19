@@ -1,4 +1,21 @@
 <br>
 <br>
-<p class="right-aligned"> Weblog </p>
-something something lorem ipsum
+<div class="right-hand">
+    <p class="section-title"> Weblog </p>
+    {% include 'weblog_toc.html' %}
+</div>
+
+
+<div class="weblog-main-area">
+{% if single_entry %}
+    {% include 'weblog_single_entry.html' %}
+{% else %}
+    {% include 'weblog_all_entries.html' %}
+{% endif %}
+
+
+</div>
+
+
+
+

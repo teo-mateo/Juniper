@@ -1,17 +1,69 @@
 /* used for the upper-right section title */
-.right-aligned
+.section-title
+{
+    background-color:#b0e0e6;
+    padding: 10px;
+    box-shadow: 3px 3px 5px #888;
+    color:#336666;
+    font-size: 14pt;
+    font-family: Signika-semi-bold;
+    font-size: 1.8em;
+}
+
+body
+{
+background-image:url('../img/white3.gif');
+background-repeat:repeat;
+}
+
+.right-hand
 {
     position:absolute;
     right:0px;
-    width:300px;
-    background-color:#b0e0e6;
-    padding: 10px;
-    color:#336666;
-    font-size: 14pt;
-    -moz-border-radius-topleft: 15px;
-    -moz-border-radius-topright: 15px;
-    -webkit-border-radius-topleft: 15px;
-    -webkit-border-radius-topright: 15px;
+    width:30%;
+    display:inline;
+    margin:10px;
+}
+
+.post-date
+{
+    position:relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size:0.9em;
+    color:#bbbbbb;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:0px;
+}
+.post-content
+{
+    position:relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size:1em;
+    margin-top:10px;
+}
+.post-tags
+{
+    /*float:left;*/
+    font-family: 'Open Sans', sans-serif;
+    font-size:0.8em;
+    color:#bbbbbb;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:0px;
+}
+
+.weblog-content
+{
+    position:relative;
+    width:70%;
+    /*font-family: 'Vollkorn', serif;*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+.weblog-toc
+{
+    font-family: 'Open Sans', sans-serif;
 }
 
 .dotted-hr {
@@ -19,4 +71,16 @@
   color: #336666;
   background-color: #fff;
   height: 1px;
+}
+
+@font-face {
+    font-family: Signika-semi-bold;
+    src: url('../fonts/Signika-Semibold.ttf');
+}
+
+.post-title
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size:2em;
+    color:#5a5a5a;
 }

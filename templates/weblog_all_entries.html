@@ -1,0 +1,23 @@
+{% for entry in md_entries %}
+    {% if entry.post_visible %}
+        <div class="weblog-content">
+            <h3 class="post-title">{{ entry.post_title }}</h3>
+
+            <span class="post-date">{{ entry.post_date }}</span>
+            |
+            <span class="post-tags"> Tags:
+                {% for tag in entry.post_tags %}
+                    <a href="{% url 'section_weblog' %}tags/{{ tag }}">{{ tag }}</a>,
+                {% endfor %}
+            </span>
+            {% if entry.post_theres_more %}
+                <div class="post-content">{{ entry.post_content_html_short }}
+                <a href="{% url 'section_weblog' %}entry/{{ entry.md_file }}">Read more...</a>
+                </div>
+
+            {% else %}
+                <div class="post-content">{{ entry.post_content_html }} </div>
+            {% endif %}
+        </div>
+    {% endif %}
+{% endfor %}
