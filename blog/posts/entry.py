@@ -38,9 +38,11 @@ class Entry(object):
             elif tag == "POST_VISIBLE":
                 self.post_visible = (value == u"True")
             elif tag == "POST_TAGS":
-                self.post_tags = [t.strip() for t in value.split(',')]
+                if len(value.strip()) > 0:
+                    self.post_tags = [t.strip() for t in value.split(',')]
             elif tag == "POST_LANG":
-                self.post_lang = [t.strip() for t in value.split(',')]
+                if len(value.strip()) > 0:
+                    self.post_lang = [t.strip() for t in value.split(',')]
             elif tag == "POST_CONTENT":
                 all_lines.remove(ln)
                 break;

@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, include, url
 from blog.views_old import index, contraptions, contact
-from blog.views.weblog import section_weblog, section_weblog_entry
+from blog.views.weblog import section_weblog, section_weblog_entry, section_weblog_tags
 
 
 # Uncomment the next two lines to enable the admin:
@@ -22,4 +22,5 @@ urlpatterns = patterns('',
     url(r'^section/contraptions/$', contraptions, name='section_contraptions'),
     url(r'^section/contact/$', contact, name='section_contact'),
     url(r'^section/weblog/entry/([\w\-. ]+)$', section_weblog_entry, name='section_weblog_entry'),
+    url(r'^section/weblog/tags/([\w\-. ]+)$', section_weblog_tags, name='section_weblog_tags'),
 )

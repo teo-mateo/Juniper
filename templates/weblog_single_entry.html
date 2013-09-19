@@ -3,12 +3,14 @@
             <h3 class="post-title">{{ entry.post_title }}</h3>
 
             <span class="post-date">{{ entry.post_date }}</span>
-            |
-            <span class="post-tags"> Tags:
+
+            {% if entry.post_tags %}
+            <span class="post-tags"> | Tags:
                 {% for tag in entry.post_tags %}
                     <a href="{% url 'section_weblog' %}tags/{{ tag }}">{{ tag }}</a>,
                 {% endfor %}
             </span>
+            {% endif %}
 
             <div class="post-content">{{ entry.post_content_html }} </div>
 

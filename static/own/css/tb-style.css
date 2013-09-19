@@ -83,4 +83,22 @@ background-repeat:repeat;
     font-family: 'Open Sans', sans-serif;
     font-size:2em;
     color:#5a5a5a;
+    border-bottom: 1px dashed #888;
+}
+
+h1
+{
+    font-family: 'Open Sans', sans-serif;
+}
+h2
+{
+    font-family: 'Open Sans', sans-serif;
+}
+h3
+{
+    font-family: 'Open Sans', sans-serif;
+}
+h4
+{
+    font-family: 'Open Sans', sans-serif;
 }

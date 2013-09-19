@@ -3,7 +3,7 @@
     <ul>
         {% for entry in md_entries  %}
             {% if entry.post_visible %}
-                <li><a href="{% url 'section_weblog' %}entry/{{ entry.md_file }}">{{ entry.post_title }}</a></li>
+        <li><a href="{% url 'section_weblog' %}entry/{{ entry.md_file }}">{{ entry.post_title }}</a></li>
             {% endif %}
         {% endfor %}
     </ul>
