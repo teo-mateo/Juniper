@@ -10,6 +10,7 @@ namespace TestGitConsole
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("something something!");
         }
     }
 }
