@@ -162,3 +162,6 @@ LOGGING = {
 
 # Where all the blog entries are
 MARKDOWN_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'posts/markdown').replace('\\','/')
+
+MONGO_DB_IP = '127.0.0.1'
+MONGO_DB_PORT = 27017

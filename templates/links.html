@@ -1,0 +1,32 @@
+<br>
+<br>
+<div class="right-hand">
+    <p class="section-title"> Links </p>
+    Just bookmarks.
+</div>
+
+
+<div class="weblog-main-area">
+
+    <form action="/section/links/addlink/" method="get">
+        <input type="text" name="link" />
+        <input type="submit" value="Add" />
+    </form>
+
+    <table>
+    <tr>
+        <td>a</td>
+        <td>b</td>
+        <td>c</td>
+    </tr>
+
+    {% for entry in links %}
+    <tr>
+        <td class="{% if forloop.counter|divisibleby:2 %}even{% else %}odd{% endif %}">{{entry.url}}</td>
+        <td>b</td>
+        <td>c</td>
+
+    </tr>
+    {% endfor %}
+</table>
+</div>

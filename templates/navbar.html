@@ -12,7 +12,9 @@
           <ul class="nav navbar-nav">
             <li {% if section == "weblog" %} class="active" {% endif %}><a href="{% url 'section_weblog' %}">Weblog</a></li>
             <li {% if section == "contraptions" %} class="active" {% endif %}><a href="{% url 'section_contraptions' %}">Contraptions</a></li>
+            <li {% if section == "links" %} class="active" {% endif %}><a href="{% url 'section_links' %}">Links</a></li>
             <li {% if section == "contact" %} class="active" {% endif %}><a href="{% url 'section_contact' %}">Contact</a></li>
+
           </ul>
         </div><!--/.nav-collapse -->
     </div>

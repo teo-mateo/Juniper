@@ -102,3 +102,14 @@ h4
 {
     font-family: 'Open Sans', sans-serif;
 }
+
+
+.even
+{
+    background: rgb(54, 25, 25); /* Fall-back for browsers that don't support rgba */
+    background: rgba(54, 25, 25, .1);
+}
+.odd
+{
+    background-color:#ffffff ;
+}
