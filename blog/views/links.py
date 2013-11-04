@@ -1,9 +1,11 @@
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.template.loader import get_template
-from django.template import Context
+from django.template import Context, RequestContext
+from django.template.defaulttags import csrf_token
+from django.shortcuts import render, render_to_response
 from juniper import settings
 from blog.linksdb.linksengine import Link
-
+import datetime
 
 def section_links(request):
     ctx = Context()
@@ -11,14 +13,12 @@ def section_links(request):
     ctx['links'] = Link.objects
     t = get_template("index.html")
     html = t.render(ctx)
-    return HttpResponse(html)
+    return render(request, "index.html", ctx)
 
 def section_links_addlink(request):
-    ctx=Context()
-    ctx['section'] = 'links'
-    Link(url=request.GET['link'], comment='comment').save()
-    ctx['links'] = Link.objects
+    Link(
+        url=request.POST['link'],
+        date=datetime.datetime.now,
+        comment='comment').save()
+    return HttpResponseRedirect('/section/links/')
 
-    t = get_template("index.html")
-    html = t.render(ctx)
-    return HttpResponse(html)
