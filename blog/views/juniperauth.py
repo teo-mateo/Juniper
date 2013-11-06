@@ -13,3 +13,7 @@ def authenticate(request):
             request.session['authenticated'] = True
 
     return render(request, 'index.html', Context())
+
+def authenticate_logout(request):
+    request.session['authenticated'] = False;
+    return render(request, 'index.html', Context())

@@ -8,7 +8,7 @@ from blog.linksdb.linksengine import Link
 import datetime
 
 def section_links(request):
-    ctx = Context()
+    ctx = RequestContext(request)
     ctx["section"] = 'links'
     ctx['links'] = Link.objects
     t = get_template("index.html")
@@ -22,3 +22,5 @@ def section_links_addlink(request):
         comment='comment').save()
     return HttpResponseRedirect('/section/links/')
 
+def section_links_delete(request):
+    return

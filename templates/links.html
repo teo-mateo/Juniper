@@ -3,25 +3,21 @@
 <div class="right-hand">
     <p class="section-title"> Links </p>
     Just bookmarks.
-
-    <hr/>
-
-    {% if not request.session.authenticated %}
-        {% include 'authenticate.html' %}
-    {% else %}
-        <p>welcome, masters.</p>
-    {% endif %}
+    {% include 'authenticate.html' %}
 </div>
 
 {% load static %}
 
 <div class="weblog-main-area">
 
-    <form action="/section/links/addlink/" method="post">
-        {% csrf_token %}
-        <input type="text" name="link" />
-        <input type="submit" value="Add" />
-    </form>
+    {% if request.session.authenticated %}
+
+        <form action="/section/links/addlink/" method="post">
+            {% csrf_token %}
+            <input type="text" name="link" />
+            <input type="submit" value="Add" />
+        </form>
+    {% endif %}
 
     <table width="70%">
     <tr>
@@ -40,7 +36,11 @@
             </div>
         </td>
     <td class="{% if forloop.counter|divisibleby:2 %}even{% else %}odd{% endif %}">
-    <img src="{% static 'own/img/trash.png' %}"></img>
+    {% if request.session.authenticated %}
+        <a href="/links/delete/?id={{ entry.id }}">
+            <img src="{% static 'own/img/trash.png' %}"/>
+        </a>
+    {% endif %}
     </td>
 
     </tr>

@@ -1,6 +1,15 @@
-<form action="/authenticate/" method="post">
-    {% csrf_token %}
-    <p>Authenticate here:</p>
-    <input type="password" name="passphrase" />
-    <input type="submit" name="auth_button" value="Go"/>
-</form>
+<hr/>
+
+    {% if request.session.authenticated %}
+        <p>welcome, master.</p>
+        <a href="/authenticate/logout">Log out.</a>
+    {% else %}
+        <form action="/authenticate" method="post">
+            {% csrf_token %}
+            <p>Authenticate here:</p>
+            <input type="password" name="passphrase" />
+            <input type="submit" name="auth_button" value="Go"/>
+        </form>
+    {% endif %}
+
+

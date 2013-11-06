@@ -2,7 +2,7 @@ from django.conf.urls import patterns, include, url
 from blog.views_old import index, contraptions, contact
 from blog.views.weblog import section_weblog, section_weblog_entry, section_weblog_tags
 from blog.views.links import section_links, section_links_addlink
-from blog.views.juniperauth import authenticate
+from blog.views.juniperauth import authenticate, authenticate_logout
 
 from django import http
 
@@ -33,7 +33,8 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     # url(r'^admin/', include(admin.site.urls)),
     url(r'^$', section_weblog, name='index'),
-    url(r'^authenticate/$', authenticate, name='authenticate'),
+    url(r'^authenticate$', authenticate, name='authenticate'),
+    url(r'^authenticate/logout$', authenticate_logout, name='authenticate_logout'),
     url(r'^section/weblog/$', section_weblog, name='section_weblog'),
     url(r'^section/links/$', section_links, name='section_links'),
     url(r'^section/links/addlink/$', section_links_addlink, name='section_links_addlink'),
