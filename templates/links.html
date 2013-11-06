@@ -3,8 +3,17 @@
 <div class="right-hand">
     <p class="section-title"> Links </p>
     Just bookmarks.
+
+    <form action="/section/links/?auth=true" method="post">
+        {% csrf_token %}
+        <p>Authenticate to manage links:</p>
+        <input type="text" name="link" />
+        <input type="submit" value="Add" />
+    </form>
+
 </div>
 
+{% load static %}
 
 <div class="weblog-main-area">
 
@@ -14,18 +23,25 @@
         <input type="submit" value="Add" />
     </form>
 
-    <table>
+    <table width="70%">
     <tr>
-        <td>a</td>
-        <td>b</td>
-        <td>c</td>
+        <td>---</td>
+        <td>&nbsp;</td>
     </tr>
 
     {% for entry in links %}
     <tr>
-        <td class="{% if forloop.counter|divisibleby:2 %}even{% else %}odd{% endif %}">{{entry.url}}</td>
-        <td>{{ entry.date }}</td>
-        <td>c</td>
+        <td class="{% if forloop.counter|divisibleby:2 %}even{% else %}odd{% endif %}"  style="padding: 3px;width: 100%">
+            <div style="">
+                <a href="{{entry.url}}" target="_blank">{{ entry.url }}</a>
+            </div>
+            <div style="font-size: 7pt; color: #999999">
+                {{ entry.date }}
+            </div>
+        </td>
+    <td class="{% if forloop.counter|divisibleby:2 %}even{% else %}odd{% endif %}">
+    <img src="{% static 'own/img/trash.png' %}"></img>
+    </td>
 
     </tr>
     {% endfor %}

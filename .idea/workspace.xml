@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" name="Default" comment="bootstrap">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contraptions/simbya/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contraptions/simbya/jquery-1.10.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contraptions/simbya/manifest.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contraptions/simbya/popup.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contraptions/simbya/popup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/juniper/__init__.py" afterPath="$PROJECT_DIR$/juniper/__init__.py" />
+    <list default="true" id="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/links.html" afterPath="$PROJECT_DIR$/templates/links.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views/links.py" afterPath="$PROJECT_DIR$/blog/views/links.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/linksdb/linksengine.py" afterPath="$PROJECT_DIR$/blog/linksdb/linksengine.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contraptions/simbya/popup.js" afterPath="$PROJECT_DIR$/contraptions/simbya/popup.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="juniper.iws" />
@@ -43,19 +36,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="10" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="306">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="links.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/links.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="55" selection-start="188" selection-end="192" vertical-scroll-proportion="-3.1153846" vertical-offset="89" max-vertical-offset="646">
+            <state line="8" column="39" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="918">
               <folding />
             </state>
           </provider>
@@ -64,16 +48,61 @@
       <file leaf-file-name="jquery-1.10.2.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contraptions/simbya/jquery-1.10.2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="166311">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="166515">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popup.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="popup.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contraptions/simbya/popup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="25" selection-start="555" selection-end="555" vertical-scroll-proportion="0.47076923" vertical-offset="0" max-vertical-offset="325">
+            <state line="5" column="35" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="357">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="links.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/views/links.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="10" selection-start="347" selection-end="347" vertical-scroll-proportion="0.21174377" vertical-offset="0" max-vertical-offset="562">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesson5.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contraptions/lesson5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="1" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="4182">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="background.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contraptions/cext-sampl/event-page-example/background.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="18" selection-start="2758" selection-end="2758" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="1683">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contraptions/cext-sampl/event-page-example/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="21" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="510">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="content.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contraptions/cext-sampl/event-page-example/content.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="31" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="952">
               <folding />
             </state>
           </provider>
@@ -82,16 +111,7 @@
       <file leaf-file-name="manifest.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contraptions/simbya/manifest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="191" selection-end="191" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="408">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linksengine.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/linksdb/linksengine.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="21" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+            <state line="6" column="30" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="408">
               <folding />
             </state>
           </provider>
@@ -128,9 +148,9 @@
         <option value="$PROJECT_DIR$/blog/linksdb/linksengine.py" />
         <option value="$PROJECT_DIR$/blog/views/links.py" />
         <option value="$PROJECT_DIR$/contraptions/simbya/popup.html" />
-        <option value="$PROJECT_DIR$/templates/links.html" />
         <option value="$PROJECT_DIR$/contraptions/simbya/manifest.json" />
         <option value="$PROJECT_DIR$/contraptions/simbya/popup.js" />
+        <option value="$PROJECT_DIR$/templates/links.html" />
       </list>
     </option>
   </component>
@@ -188,7 +208,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -245,73 +264,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contraptions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="contraptions" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="simbya" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="PyConsoleConfigurable.Django Console" />
+    <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -477,7 +447,27 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="juniper" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -503,27 +493,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="juniper" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -705,7 +675,11 @@
       <created>1383488362025</created>
       <updated>1383488362025</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added a simple chrome extension.">
+      <created>1383598607932</created>
+      <updated>1383598607932</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -735,18 +709,18 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42364532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="-22" y="742" width="1366" height="258" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67001677" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29062957" sideWeight="0.5763547" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29062957" sideWeight="0.4909688" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5090312" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29062957" sideWeight="0.46469623" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56157637" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16748768" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5041051" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42364532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="-22" y="742" width="1366" height="258" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -767,7 +741,8 @@
     <MESSAGE value="bootstrap" />
     <MESSAGE value="reverting to the old wsgi file" />
     <MESSAGE value="added some info in README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some info in README.md" />
+    <MESSAGE value="added a simple chrome extension." />
+    <option name="LAST_COMMIT_MESSAGE" value="added a simple chrome extension." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -805,54 +780,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/own/css/tb-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="35" selection-start="1793" selection-end="1793" vertical-scroll-proportion="0.780083" vertical-offset="1665" max-vertical-offset="2040" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="27" selection-start="394" selection-end="408" vertical-scroll-proportion="0.4744186" vertical-offset="255" max-vertical-offset="646" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="257" selection-end="257" vertical-scroll-proportion="0.6348548" vertical-offset="0" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python275/Lib/site-packages/django/template/defaulttags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="602" column="4" selection-start="21707" selection-end="21707" vertical-scroll-proportion="0.33333334" vertical-offset="9803" max-vertical-offset="23069">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/juniper/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="63" selection-start="3826" selection-end="3826" vertical-scroll-proportion="0.64468867" vertical-offset="1592" max-vertical-offset="2941">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python275/Lib/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="0" selection-start="4779" selection-end="4867" vertical-scroll-proportion="0.33333334" vertical-offset="1609" max-vertical-offset="4556">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/linksdb/linksengine.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
+        <state line="6" column="21" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contraptions/simbya/jquery-1.10.2.js">
@@ -862,55 +792,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/links.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="55" selection-start="188" selection-end="192" vertical-scroll-proportion="-3.1153846" vertical-offset="89" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views/links.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="772" selection-end="772" vertical-scroll-proportion="0.8214286" vertical-offset="201" max-vertical-offset="510">
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contraptions/simbya/popup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="1.9797571" vertical-offset="72" max-vertical-offset="663">
-          <folding />
-        </state>
+        <state line="33" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="1.9797571" vertical-offset="72" max-vertical-offset="663" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/views/weblog.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/views/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="273">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="273" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contraptions/simbya/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="191" selection-end="191" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="408">
+        <state line="6" column="30" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contraptions/simbya/popup.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="555" selection-end="555" vertical-scroll-proportion="0.47076923" vertical-offset="0" max-vertical-offset="325">
+        <state line="5" column="35" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contraptions/lesson5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="1" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="4131">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contraptions/cext-sampl/event-page-example/content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="31" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contraptions/cext-sampl/event-page-example/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="18" selection-start="2758" selection-end="2758" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="1683">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contraptions/cext-sampl/event-page-example/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="21" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="10" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="306" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/own/img/white3.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="429" selection-end="446" vertical-scroll-proportion="0.22270742" vertical-offset="357" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/links.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="39" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/links.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="10" selection-start="347" selection-end="347" vertical-scroll-proportion="0.21174377" vertical-offset="0" max-vertical-offset="562">
           <folding />
         </state>
       </provider>
