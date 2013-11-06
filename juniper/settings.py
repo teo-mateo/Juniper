@@ -128,6 +128,9 @@ INSTALLED_APPS = (
 )
 
 SESSION_SERIALIZER = 'django.contrib.sessions.serializers.JSONSerializer'
+SESSION_ENGINE = 'django.contrib.sessions.backends.file'
+SESSION_FILE_PATH = os.path.join(os.path.dirname(__file__), '..', 'sessionfiles').replace('\\','/')
+SESSION_SAVE_EVERY_REQUEST = True
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to

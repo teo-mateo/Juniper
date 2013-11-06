@@ -1,0 +1,6 @@
+<form action="/authenticate/" method="post">
+    {% csrf_token %}
+    <p>Authenticate here:</p>
+    <input type="password" name="passphrase" />
+    <input type="submit" name="auth_button" value="Go"/>
+</form>

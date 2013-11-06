@@ -4,13 +4,13 @@
     <p class="section-title"> Links </p>
     Just bookmarks.
 
-    <form action="/section/links/?auth=true" method="post">
-        {% csrf_token %}
-        <p>Authenticate to manage links:</p>
-        <input type="text" name="link" />
-        <input type="submit" value="Add" />
-    </form>
+    <hr/>
 
+    {% if not request.session.authenticated %}
+        {% include 'authenticate.html' %}
+    {% else %}
+        <p>welcome, masters.</p>
+    {% endif %}
 </div>
 
 {% load static %}

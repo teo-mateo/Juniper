@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/authenticate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/views/juniperauth.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/jutils.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/links.html" afterPath="$PROJECT_DIR$/templates/links.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contraptions/simbya/popup.js" afterPath="$PROJECT_DIR$/contraptions/simbya/popup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/juniper/settings.py" afterPath="$PROJECT_DIR$/juniper/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/juniper/urls.py" afterPath="$PROJECT_DIR$/juniper/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="juniper.iws" />
@@ -15,6 +19,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/juniper$jutils.coverage" NAME="jutils Coverage Results" MODIFIED="1383753267070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blog" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -39,80 +46,69 @@
       <file leaf-file-name="links.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/links.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="39" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="918">
+            <state line="8" column="43" selection-start="151" selection-end="151" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="918">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery-1.10.2.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contraptions/simbya/jquery-1.10.2.js">
+      <file leaf-file-name="juniperauth.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/views/juniperauth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="166515">
-              <folding />
+            <state line="11" column="4" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+                <marker date="1383753801686" expanded="true" signature="318:558" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popup.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contraptions/simbya/popup.js">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/juniper/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="35" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="357">
+            <state line="127" column="1" selection-start="4473" selection-end="4473" vertical-scroll-proportion="0.0" vertical-offset="2002" max-vertical-offset="2992">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="links.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="linksengine.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/linksdb/linksengine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jutils.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/jutils.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/juniper/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="825" selection-end="825" vertical-scroll-proportion="0.73913044" vertical-offset="153" max-vertical-offset="918">
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="links.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/views/links.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="10" selection-start="347" selection-end="347" vertical-scroll-proportion="0.21174377" vertical-offset="0" max-vertical-offset="562">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lesson5.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contraptions/lesson5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="1" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="4182">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="background.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contraptions/cext-sampl/event-page-example/background.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="18" selection-start="2758" selection-end="2758" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="1683">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manifest.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contraptions/cext-sampl/event-page-example/manifest.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="21" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contraptions/cext-sampl/event-page-example/content.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="31" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="952">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manifest.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/contraptions/simbya/manifest.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="408">
-              <folding />
+            <state line="24" column="0" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="510">
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,12 +131,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/blog/__init__.py" />
-        <option value="$PROJECT_DIR$/templates/weblog.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/navbar.html" />
-        <option value="$PROJECT_DIR$/juniper/urls.py" />
-        <option value="$PROJECT_DIR$/juniper/settings.py" />
         <option value="$PROJECT_DIR$/blog/linksdb/linksdb.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/static/own/css/tb-style.css" />
@@ -150,7 +141,12 @@
         <option value="$PROJECT_DIR$/contraptions/simbya/popup.html" />
         <option value="$PROJECT_DIR$/contraptions/simbya/manifest.json" />
         <option value="$PROJECT_DIR$/contraptions/simbya/popup.js" />
+        <option value="$PROJECT_DIR$/templates/authenticate.html" />
+        <option value="$PROJECT_DIR$/blog/jutils.py" />
         <option value="$PROJECT_DIR$/templates/links.html" />
+        <option value="$PROJECT_DIR$/blog/views/juniperauth.py" />
+        <option value="$PROJECT_DIR$/juniper/settings.py" />
+        <option value="$PROJECT_DIR$/juniper/urls.py" />
       </list>
     </option>
   </component>
@@ -236,35 +232,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
+              <option name="myItemId" value="sessionfiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -361,6 +329,25 @@
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="jutils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/blog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="juniper" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/blog/jutils.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <method />
     </configuration>
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -592,18 +579,20 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Django server.Juniper" />
       <item index="1" class="java.lang.String" itemvalue="Django server.juniper" />
       <item index="2" class="java.lang.String" itemvalue="Python.entry" />
       <item index="3" class="java.lang.String" itemvalue="Python.loto649" />
       <item index="4" class="java.lang.String" itemvalue="Python.quickunionUF" />
+      <item index="5" class="java.lang.String" itemvalue="Python.jutils" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.quickunionUF" />
-        <item index="1" class="java.lang.String" itemvalue="Python.loto649" />
-        <item index="2" class="java.lang.String" itemvalue="Python.entry" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.jutils" />
+        <item index="1" class="java.lang.String" itemvalue="Python.quickunionUF" />
+        <item index="2" class="java.lang.String" itemvalue="Python.loto649" />
+        <item index="3" class="java.lang.String" itemvalue="Python.entry" />
       </list>
     </recent_temporary>
   </component>
@@ -706,22 +695,22 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67001677" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29062957" sideWeight="0.4909688" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5090312" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29062957" sideWeight="0.4958949" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43021345" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29062957" sideWeight="0.46469623" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56157637" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5041051" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5041051" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42364532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="-22" y="742" width="1366" height="258" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -772,55 +761,29 @@
           <line>18</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/blog/jutils.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/blog/views/juniperauth.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/blog/views/juniperauth.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="58" />
+      <option name="time" value="68" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/linksdb/linksengine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="21" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contraptions/simbya/jquery-1.10.2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="166311">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contraptions/simbya/popup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="1.9797571" vertical-offset="72" max-vertical-offset="663" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views/weblog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="273" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contraptions/simbya/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="408">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contraptions/simbya/popup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contraptions/lesson5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="1" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="4131">
@@ -828,53 +791,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contraptions/cext-sampl/event-page-example/content.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="31" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contraptions/cext-sampl/event-page-example/background.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="18" selection-start="2758" selection-end="2758" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="1683">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contraptions/cext-sampl/event-page-example/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="510">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="306" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/own/img/white3.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="429" selection-end="446" vertical-scroll-proportion="0.22270742" vertical-offset="357" max-vertical-offset="646" />
+        <state line="21" column="30" selection-start="411" selection-end="411" vertical-scroll-proportion="1.176" vertical-offset="63" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/contraptions/loto649.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1118" selection-end="1144" vertical-scroll-proportion="0.56884056" vertical-offset="642" max-vertical-offset="986">
+          <folding>
+            <element signature="e#0#11#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/contraptions/lot649.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="276">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/links.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="39" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="918">
+        <state line="8" column="43" selection-start="151" selection-end="151" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/authenticate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="43" selection-start="129" selection-end="139" vertical-scroll-proportion="0.17288135" vertical-offset="0" max-vertical-offset="295">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/views/links.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="10" selection-start="347" selection-end="347" vertical-scroll-proportion="0.21174377" vertical-offset="0" max-vertical-offset="562">
+        <state line="24" column="0" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="510">
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/jutils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/linksdb/linksengine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juniper/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="1" selection-start="4473" selection-end="4473" vertical-scroll-proportion="0.0" vertical-offset="2002" max-vertical-offset="2992">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views/juniperauth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="4" selection-start="407" selection-end="407" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+            <marker date="1383753801686" expanded="true" signature="318:558" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juniper/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="825" selection-end="825" vertical-scroll-proportion="0.73913044" vertical-offset="153" max-vertical-offset="918">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
