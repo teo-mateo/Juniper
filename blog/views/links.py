@@ -23,4 +23,6 @@ def section_links_addlink(request):
     return HttpResponseRedirect('/section/links/')
 
 def section_links_delete(request):
-    return
+    link = Link.objects(id=request.GET['id'])[0]
+    link.delete()
+    return HttpResponseRedirect('/section/links/')

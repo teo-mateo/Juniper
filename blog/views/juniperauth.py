@@ -12,8 +12,8 @@ def authenticate(request):
         if jutils.check_passphrase(user_provided):
             request.session['authenticated'] = True
 
-    return render(request, 'index.html', Context())
+    return HttpResponseRedirect(request.META['HTTP_REFERER'])
 
 def authenticate_logout(request):
     request.session['authenticated'] = False;
-    return render(request, 'index.html', Context())
+    return HttpResponseRedirect(request.META['HTTP_REFERER'])

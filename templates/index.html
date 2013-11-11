@@ -1,6 +1,11 @@
 <!DOCTYPE HTML>
 
 <html>
+
+{% load static %}
+<script src="{% static 'bootstrap-3.0.0/assets/js/jquery.js' %}"></script>
+<script src="{% static 'bootstrap-3.0.0/dist/js/bootstrap.min.js'%}"></script>
+
 {% include 'header.html' %}
 
 <body>
@@ -22,9 +27,7 @@
     {% include 'links.html' %}
 {% endif %}
     
-{% load static %}
-<script src="{% static 'bootstrap-3.0.0/assets/js/jquery.js' %}"></script>
-<script src="{% static 'bootstrap-3.0.0/dist/js/bootstrap.min.js'%}"></script>
+
 
 </div>
 
