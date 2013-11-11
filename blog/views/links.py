@@ -6,6 +6,7 @@ from django.shortcuts import render, render_to_response
 from juniper import settings
 from blog.linksdb.linksengine import Link
 import datetime
+from django.core.urlresolvers import reverse
 
 def section_links(request):
     ctx = RequestContext(request)
@@ -20,9 +21,9 @@ def section_links_addlink(request):
         url=request.POST['link'],
         date=datetime.datetime.now,
         comment='comment').save()
-    return HttpResponseRedirect('/section/links/')
+    return HttpResponseRedirect(reverse('section_links'))
 
 def section_links_delete(request):
     link = Link.objects(id=request.GET['id'])[0]
     link.delete()
-    return HttpResponseRedirect('/section/links/')
+    return HttpResponseRedirect(reverse('section_links'))
