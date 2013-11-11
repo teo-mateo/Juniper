@@ -8,7 +8,12 @@ from blog.linksdb.linksengine import Link
 import datetime
 from django.core.urlresolvers import reverse
 
+import logging
+
 def section_links(request):
+    log = logging.getLogger(__name__)
+    log.debug("we're in the section_links handler.")
+
     ctx = RequestContext(request)
     ctx["section"] = 'links'
     ctx['links'] = Link.objects
