@@ -4,7 +4,7 @@
         <p>welcome, master.</p>
         <a href="/authenticate/logout">Log out.</a>
     {% else %}
-        <form action="/authenticate" method="post">
+        <form action="{% url 'authenticate' %}" method="post">
             {% csrf_token %}
             <p>Authenticate here:</p>
             <input type="password" name="passphrase" />
