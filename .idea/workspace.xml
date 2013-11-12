@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" name="Default" comment="session should work now (upgraded to django 1.6)&#10;also simple log in /log out should work now.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/views/contraptions/basic/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/views/contraptions/basic/booleanoperations.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/views/contraptions/pygame/intro.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+    <list default="true" id="57792aa3-0fa7-40b4-b9dc-62ad4102ad3b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views/juniperauth.py" afterPath="$PROJECT_DIR$/blog/views/juniperauth.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/links.html" afterPath="$PROJECT_DIR$/templates/links.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views/links.py" afterPath="$PROJECT_DIR$/blog/views/links.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contraptions/simbya/manifest.json" afterPath="$PROJECT_DIR$/contraptions/simbya/manifest.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contraptions/simbya/popup.js" afterPath="$PROJECT_DIR$/contraptions/simbya/popup.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/juniper/urls.py" afterPath="$PROJECT_DIR$/juniper/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -46,11 +43,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="links.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/views/links.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="850">
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manifest.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contraptions/simbya/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="33" selection-start="259" selection-end="259" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="408">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/juniper/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="150" column="35" selection-start="5436" selection-end="5436" vertical-scroll-proportion="0.0" vertical-offset="2332" max-vertical-offset="3570">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="juniperauth.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/views/juniperauth.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="35" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="510">
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="defaulttags.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python275/Lib/site-packages/django/template/defaulttags.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="6" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="14620">
+              <folding>
+                <element signature="e#1045#1500#0" expanded="false" />
+                <element signature="e#2361#3180#0" expanded="false" />
+                <element signature="e#3209#3426#0" expanded="false" />
+                <element signature="e#3456#3805#0" expanded="false" />
+                <element signature="e#3836#4280#0" expanded="false" />
+                <element signature="e#4307#8114#0" expanded="false" />
+                <element signature="e#8147#10128#0" expanded="false" />
+                <element signature="e#10159#10809#0" expanded="false" />
+                <element signature="e#10836#11754#0" expanded="false" />
+                <element signature="e#11785#12789#0" expanded="false" />
+                <element signature="e#12829#12992#0" expanded="false" />
+                <element signature="e#13019#13975#0" expanded="false" />
+                <element signature="e#14003#14047#0" expanded="false" />
+                <element signature="e#14074#14326#0" expanded="false" />
+                <element signature="e#14359#14597#0" expanded="false" />
+                <element signature="e#14632#15173#0" expanded="false" />
+                <element signature="e#15200#17203#0" expanded="false" />
+                <element signature="e#17235#17354#0" expanded="false" />
+                <element signature="e#17388#18230#0" expanded="false" />
+                <element signature="e#18258#18922#0" expanded="false" />
+                <element signature="e#18973#19545#0" expanded="false" />
+                <element signature="e#19593#19739#0" expanded="false" />
+                <element signature="e#19799#23412#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="links.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/links.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="16" selection-start="2600" selection-end="2600" vertical-scroll-proportion="0.0" vertical-offset="1578" max-vertical-offset="1972">
+            <state line="77" column="8" selection-start="1794" selection-end="1794" vertical-scroll-proportion="-9.692307" vertical-offset="1057" max-vertical-offset="1972">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authenticate.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/authenticate.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="31" selection-start="81" selection-end="81" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="357">
+              <folding>
+                <marker date="1384237663173" expanded="true" signature="221:425" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="popup.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contraptions/simbya/popup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="6" selection-start="603" selection-end="603" vertical-scroll-proportion="0.33333334" vertical-offset="121" max-vertical-offset="612">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,53 +150,10 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/juniper/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="76" selection-start="263" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="952">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="6" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="697">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="links.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/views/links.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="35" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="juniperauth.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/views/juniperauth.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="650" selection-end="650" vertical-scroll-proportion="0.4857143" vertical-offset="0" max-vertical-offset="420">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python275/Lib/site-packages/django/core/handlers/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="0" selection-start="4537" selection-end="4537" vertical-scroll-proportion="0.0" vertical-offset="1921" max-vertical-offset="5032">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="linksengine.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/linksdb/linksengine.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="306">
-              <folding />
+            <state line="45" column="45" selection-start="2169" selection-end="2188" vertical-scroll-proportion="0.0" vertical-offset="632" max-vertical-offset="969">
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,22 +176,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/static/own/css/tb-style.css" />
         <option value="$PROJECT_DIR$/contraptions/simbya/README.txt" />
         <option value="$PROJECT_DIR$/blog/linksdb/linksengine.py" />
         <option value="$PROJECT_DIR$/contraptions/simbya/popup.html" />
-        <option value="$PROJECT_DIR$/contraptions/simbya/manifest.json" />
-        <option value="$PROJECT_DIR$/contraptions/simbya/popup.js" />
         <option value="$PROJECT_DIR$/blog/jutils.py" />
-        <option value="$PROJECT_DIR$/juniper/settings.py" />
-        <option value="$PROJECT_DIR$/templates/authenticate.html" />
         <option value="$PROJECT_DIR$/blog/views/contraptions/basic/booleanoperations.py" />
         <option value="$PROJECT_DIR$/blog/views/contraptions/pygame/intro.py" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/links.html" />
+        <option value="$PROJECT_DIR$/juniper/local_settings.py" />
+        <option value="$PROJECT_DIR$/juniper/settings.py" />
+        <option value="$PROJECT_DIR$/templates/authenticate.html" />
         <option value="$PROJECT_DIR$/juniper/urls.py" />
-        <option value="$PROJECT_DIR$/blog/views/links.py" />
         <option value="$PROJECT_DIR$/blog/views/juniperauth.py" />
+        <option value="$PROJECT_DIR$/blog/views/links.py" />
+        <option value="$PROJECT_DIR$/contraptions/simbya/manifest.json" />
+        <option value="$PROJECT_DIR$/contraptions/simbya/popup.js" />
       </list>
     </option>
   </component>
@@ -200,6 +249,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,7 +278,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="contraptions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -242,7 +292,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
+              <option name="myItemId" value="contraptions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="simbya" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -256,45 +310,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jquery-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sessionfiles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Juniper" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="juniper" />
+              <option name="myItemId" value="blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -753,7 +774,47 @@
       <created>1383776421715</created>
       <updated>1383776421715</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="deleting links works now. also logging in/out redirects to the prev page.">
+      <created>1384196533593</created>
+      <updated>1384196533593</updated>
+    </task>
+    <task id="LOCAL-00016" summary="loading local_settings from the settings.py file">
+      <created>1384197734519</created>
+      <updated>1384197734520</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added slashes at the beginning of each url">
+      <created>1384198290565</created>
+      <updated>1384198290565</updated>
+    </task>
+    <task id="LOCAL-00018" summary="removed slashes..again">
+      <created>1384198548781</created>
+      <updated>1384198548781</updated>
+    </task>
+    <task id="LOCAL-00019" summary="changed the action of the auth form to something using {% url %} instead of hardcoding it">
+      <created>1384198706417</created>
+      <updated>1384198706418</updated>
+    </task>
+    <task id="LOCAL-00020" summary="changed the action of the add link form to something using {% url %} instead of hardcoding it">
+      <created>1384199936572</created>
+      <updated>1384199936572</updated>
+    </task>
+    <task id="LOCAL-00021" summary="redirecting with url name">
+      <created>1384200307770</created>
+      <updated>1384200307770</updated>
+    </task>
+    <task id="LOCAL-00022" summary="basic logging.">
+      <created>1384202580877</created>
+      <updated>1384202580877</updated>
+    </task>
+    <task id="LOCAL-00023" summary="moved some things into local_settings.">
+      <created>1384237569171</created>
+      <updated>1384237569171</updated>
+    </task>
+    <task id="LOCAL-00024" summary="removed hardcoded authenticate/logout url.">
+      <created>1384237696651</created>
+      <updated>1384237696651</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -780,22 +841,22 @@
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32663316" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.67001677" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2904412" sideWeight="0.7323481" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43021345" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2904412" sideWeight="0.56978655" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43021345" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29062957" sideWeight="0.46469623" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.56157637" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2676519" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4039409" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998326" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42364532" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="-22" y="742" width="1366" height="258" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -839,7 +900,17 @@
     <MESSAGE value="added a simple chrome extension." />
     <MESSAGE value="session doesn't seem to work in windows :(" />
     <MESSAGE value="session should work now (upgraded to django 1.6)&#10;also simple log in /log out should work now." />
-    <option name="LAST_COMMIT_MESSAGE" value="session should work now (upgraded to django 1.6)&#10;also simple log in /log out should work now." />
+    <MESSAGE value="deleting links works now. also logging in/out redirects to the prev page." />
+    <MESSAGE value="loading local_settings from the settings.py file" />
+    <MESSAGE value="added slashes at the beginning of each url" />
+    <MESSAGE value="removed slashes..again" />
+    <MESSAGE value="changed the action of the auth form to something using {% url %} instead of hardcoding it" />
+    <MESSAGE value="changed the action of the add link form to something using {% url %} instead of hardcoding it" />
+    <MESSAGE value="redirecting with url name" />
+    <MESSAGE value="basic logging." />
+    <MESSAGE value="moved some things into local_settings." />
+    <MESSAGE value="removed hardcoded authenticate/logout url." />
+    <option name="LAST_COMMIT_MESSAGE" value="removed hardcoded authenticate/logout url." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -869,111 +940,171 @@
           <line>22</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/blog/views/juniperauth.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="72" />
+      <option name="time" value="79" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blog/jutils.py">
+    <entry file="file://$PROJECT_DIR$/juniper/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm30/system/python_stubs/387656583/__builtin__.py">
+    <entry file="file://$PROJECT_DIR$/templates/navbar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="23" selection-start="6318" selection-end="6324" vertical-scroll-proportion="0.94168097" vertical-offset="2664" max-vertical-offset="86683">
+        <state line="12" column="107" selection-start="648" selection-end="674" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/juniper/settings.py">
+    <entry file="file://C:/Program Files/Python275/Lib/logging/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="118" selection-start="5773" selection-end="5773" vertical-scroll-proportion="0.7862319" vertical-offset="2588" max-vertical-offset="3043">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/authenticate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="214" selection-end="214" vertical-scroll-proportion="0.052" vertical-offset="106" max-vertical-offset="357" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views/contraptions/basic/booleanoperations.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="404" selection-end="404" vertical-scroll-proportion="0.6304348" vertical-offset="336" max-vertical-offset="612" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views/contraptions/pygame/intro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="18" selection-start="18" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="276" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="9" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.8023256" vertical-offset="11" max-vertical-offset="527" />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DOMEvents.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="3" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.5897921" vertical-offset="1184" max-vertical-offset="9673" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="6" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="697">
+        <state line="660" column="0" selection-start="25291" selection-end="25291" vertical-scroll-proportion="0.0" vertical-offset="11096" max-vertical-offset="15929">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/links.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="16" selection-start="2600" selection-end="2600" vertical-scroll-proportion="0.0" vertical-offset="1578" max-vertical-offset="1972">
+        <state line="77" column="8" selection-start="1794" selection-end="1794" vertical-scroll-proportion="-9.692307" vertical-offset="1057" max-vertical-offset="1972">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/authenticate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="31" selection-start="81" selection-end="81" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="357">
+          <folding>
+            <marker date="1384237663173" expanded="true" signature="221:425" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python275/Lib/site-packages/django/http/response.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="328" column="8" selection-start="11751" selection-end="11751" vertical-scroll-proportion="0.3322785" vertical-offset="5386" max-vertical-offset="8874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python275/Lib/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1135" column="0" selection-start="40306" selection-end="40306" vertical-scroll-proportion="0.31750742" vertical-offset="19188" max-vertical-offset="29444">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juniper/local_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="31" selection-start="239" selection-end="239" vertical-scroll-proportion="0.30267063" vertical-offset="0" max-vertical-offset="337">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python275/Lib/site-packages/django/core/context_processors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="0" selection-start="1811" selection-end="1811" vertical-scroll-proportion="0.3956386" vertical-offset="162" max-vertical-offset="510">
+          <folding>
+            <element signature="e#562#1159#0" expanded="false" />
+            <element signature="e#757#1074#0" expanded="false" />
+            <element signature="e#1185#1508#0" expanded="false" />
+            <element signature="e#1533#1809#0" expanded="false" />
+            <element signature="e#1832#1929#0" expanded="false" />
+            <element signature="e#1956#2073#0" expanded="false" />
+            <element signature="e#2099#2213#0" expanded="false" />
+            <element signature="e#2241#2268#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python275/Lib/site-packages/django/template/defaulttags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="6" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="14620">
+          <folding>
+            <element signature="e#1045#1500#0" expanded="false" />
+            <element signature="e#2361#3180#0" expanded="false" />
+            <element signature="e#3209#3426#0" expanded="false" />
+            <element signature="e#3456#3805#0" expanded="false" />
+            <element signature="e#3836#4280#0" expanded="false" />
+            <element signature="e#4307#8114#0" expanded="false" />
+            <element signature="e#8147#10128#0" expanded="false" />
+            <element signature="e#10159#10809#0" expanded="false" />
+            <element signature="e#10836#11754#0" expanded="false" />
+            <element signature="e#11785#12789#0" expanded="false" />
+            <element signature="e#12829#12992#0" expanded="false" />
+            <element signature="e#13019#13975#0" expanded="false" />
+            <element signature="e#14003#14047#0" expanded="false" />
+            <element signature="e#14074#14326#0" expanded="false" />
+            <element signature="e#14359#14597#0" expanded="false" />
+            <element signature="e#14632#15173#0" expanded="false" />
+            <element signature="e#15200#17203#0" expanded="false" />
+            <element signature="e#17235#17354#0" expanded="false" />
+            <element signature="e#17388#18230#0" expanded="false" />
+            <element signature="e#18258#18922#0" expanded="false" />
+            <element signature="e#18973#19545#0" expanded="false" />
+            <element signature="e#19593#19739#0" expanded="false" />
+            <element signature="e#19799#23412#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/juniper/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="76" selection-start="263" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python275/Lib/site-packages/mongoengine/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/linksdb/linksengine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python275/Lib/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="0" selection-start="4537" selection-end="4537" vertical-scroll-proportion="0.0" vertical-offset="1564" max-vertical-offset="4777">
-          <folding />
+        <state line="45" column="45" selection-start="2169" selection-end="2188" vertical-scroll-proportion="0.0" vertical-offset="632" max-vertical-offset="969">
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/views/links.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="35" selection-start="699" selection-end="699" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
+        <state line="24" column="0" selection-start="773" selection-end="773" vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="850">
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/views/juniperauth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="650" selection-end="650" vertical-scroll-proportion="0.4857143" vertical-offset="0" max-vertical-offset="420">
+        <state line="23" column="35" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="87" max-vertical-offset="510">
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/juniper/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="150" column="35" selection-start="5436" selection-end="5436" vertical-scroll-proportion="0.0" vertical-offset="2332" max-vertical-offset="3570">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contraptions/simbya/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="33" selection-start="259" selection-end="259" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contraptions/simbya/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="6" selection-start="603" selection-end="603" vertical-scroll-proportion="0.33333334" vertical-offset="121" max-vertical-offset="612">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

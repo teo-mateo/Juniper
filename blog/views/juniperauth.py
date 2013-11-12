@@ -3,6 +3,7 @@ from django.template.loader import get_template
 from django.template import Context, RequestContext
 from django.template.defaulttags import csrf_token
 from django.shortcuts import render, render_to_response
+from django.core.context_processors import csrf
 
 from blog import jutils
 
@@ -17,3 +18,7 @@ def authenticate(request):
 def authenticate_logout(request):
     request.session['authenticated'] = False;
     return HttpResponseRedirect(request.META['HTTP_REFERER'])
+
+def csrfmiddlewaretoken(request):
+    a = csrf(request)
+    return HttpResponse(csrf_token)
