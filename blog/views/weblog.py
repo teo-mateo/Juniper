@@ -6,6 +6,7 @@ from juniper import settings
 import os
 
 def get_all_entries():
+    print 'getting blog entries from ' + settings.MARKDOWN_DIR
     md_dir = settings.MARKDOWN_DIR
     files = os.listdir(md_dir)
     entries = []
