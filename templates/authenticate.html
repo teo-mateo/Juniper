@@ -2,7 +2,7 @@
 
     {% if request.session.authenticated %}
         <p>welcome, master.</p>
-        <a href="/authenticate/logout">Log out.</a>
+        <a href="{% url 'authenticate_logout' %}">Log out.</a>
     {% else %}
         <form action="{% url 'authenticate' %}" method="post">
             {% csrf_token %}
