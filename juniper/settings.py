@@ -132,7 +132,14 @@ SESSION_ENGINE = 'django.contrib.sessions.backends.file'
 SESSION_FILE_PATH = os.path.join(os.path.dirname(__file__), '..', 'sessionfiles').replace('\\','/')
 SESSION_SAVE_EVERY_REQUEST = True
 
+# Where all the blog entries are
+MARKDOWN_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'posts/markdown').replace('\\','/')
 LOG_FOLDER = os.path.join(os.path.dirname(__file__), '..').replace('\\','/')
+
+try:
+  from local_settings import *
+except ImportError:
+  pass
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
@@ -190,14 +197,9 @@ LOGGING = {
 TEMPLATE_CONTEXT_PROCESSORS = global_settings.TEMPLATE_CONTEXT_PROCESSORS + ('django.core.context_processors.request',)
 
 
-# Where all the blog entries are
-MARKDOWN_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'posts/markdown').replace('\\','/')
+
 
 MONGO_DB_IP = '127.0.0.1'
 MONGO_DB_PORT = 27017
 
 
-try:
-  from local_settings import *
-except ImportError:
-  pass
