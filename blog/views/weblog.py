@@ -11,7 +11,7 @@ def get_all_entries():
     files = os.listdir(md_dir)
     entries = []
     for f in files:
-        if f.endswith(".post.md"):
+        if f.endswith(".md"):
             e = Entry(f)
             e.read()
             entries.append(e)
