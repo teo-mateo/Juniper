@@ -5,6 +5,7 @@ class PageEncoder(json.JSONEncoder):
     def encode(self, o):
         return {
             'id': unicode(o.id),
+            'order': unicode(o.order),
             'title': unicode(o.title),
             'content': unicode(o.content),
             'lastmodified': o.lastModified.isoformat()

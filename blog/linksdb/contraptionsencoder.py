@@ -3,8 +3,11 @@ import json
 
 class ContraptionsEncoder(json.JSONEncoder):
     def encode(self, o):
+        if o.order == None:
+            o.order = 0
         return {
             'id':unicode(o.id),
+            'order': unicode(o.order),
             'title': unicode(o.title),
             'description': unicode(o.description),
             'visible': bool(o.visible)
