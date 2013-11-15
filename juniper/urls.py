@@ -1,7 +1,8 @@
 from django.conf.urls import patterns, include, url
-from blog.views_old import index, contraptions, contact
+from blog.views_old import index, contact
 from blog.views.weblog import section_weblog, section_weblog_entry, section_weblog_tags
 from blog.views.links import section_links, section_links_addlink, section_links_delete
+from blog.views.contraptions import section_contraptions, section_contraptions_add
 from blog.views.juniperauth import authenticate, authenticate_logout, csrfmiddlewaretoken
 
 from django import http
@@ -39,7 +40,8 @@ urlpatterns = patterns('',
     url(r'^section/links/$', section_links, name='section_links'),
     url(r'^section/links/addlink/$', section_links_addlink, name='section_links_addlink'),
     url(r'^section/links/delete/$', section_links_delete, name='section_links_delete'),
-    url(r'^section/contraptions/$', contraptions, name='section_contraptions'),
+    url(r'^section/contraptions/$', section_contraptions, name='section_contraptions'),
+    url(r'^section/contraptions/add/$', section_contraptions_add, name='section_contraptions_add'),
     url(r'^section/contact/$', contact, name='section_contact'),
     url(r'^section/weblog/entry/([\w\-. ]+)$', section_weblog_entry, name='section_weblog_entry'),
     url(r'^section/weblog/tags/([\w\-. ]+)$', section_weblog_tags, name='section_weblog_tags'),

@@ -5,8 +5,8 @@ import csv
 
 __author__ = 'Teo hrc! Ptiu!'
 
-jsonfile = "F:/_work/gits/juniper/static/contraptions/loto649ro.json"
-csvfile = "F:/_work/gits/juniper/static/contraptions/loto649ro.csv"
+jsonfile = "F:/_work/gits/juniper/static/contrap/loto649ro.json"
+csvfile = "F:/_work/gits/juniper/static/contrap/loto649ro.csv"
 
 input = '2 17 22 36 39 42'
 

@@ -11,15 +11,6 @@ def index(request):
     html = t.render(ctx)
     return HttpResponse(html)
 
-
-def contraptions(request):
-    ctx = Context()
-    ctx["section"] = 'contraptions'
-    t = get_template("index.html")
-    html = t.render(ctx)
-    return HttpResponse(html)
-
-
 def contact(request):
     ctx = Context()
     ctx["section"] = 'contact'

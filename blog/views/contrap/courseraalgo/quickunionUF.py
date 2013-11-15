@@ -1,4 +1,4 @@
-from blog.views.contraptions.courseraalgo.quickunion import QuickUnionUF
+from blog.views.contrap.courseraalgo.quickunion import QuickUnionUF
 
 __author__ = 'Teo'
 

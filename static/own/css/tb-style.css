@@ -111,5 +111,6 @@ h4
 }
 .odd
 {
-    background-color:#ffffff ;
+    background: rgb(255, 255, 255); /* Fall-back for browsers that don't support rgba */
+    background: rgba(255, 255, 255, .8);
 }
