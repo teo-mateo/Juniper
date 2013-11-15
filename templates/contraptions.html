@@ -70,21 +70,24 @@
 
 </div>
 
-<!-- list a contraption -->
-{% for c in contraptions %}
-    <a href="{% url 'section_contraptions_view' %}?id={{ c.source.id }}" class="post-title">
-        {{ c.title }}
-    </a>
-    {% if request.session.authenticated %}
-        &nbsp;
-        <a href="#" onclick="editContraption('{{ c.source.id }}'); return false;">
-            <img src="{% static 'own/img/edit-icon.png' %}"/>
+<div class="weblog-content  ">
+
+    <!-- list a contraption -->
+    {% for c in contraptions %}
+        <a href="{% url 'section_contraptions_view' %}?id={{ c.source.id }}" class="post-title">
+            {{ c.title }}
         </a>
-        <a href="#" onclick="deleteContraption('{{ c.source.id }}'); return false;">
-            <img src="{% static 'own/img/trash.png' %}" />
-        </a>
-    {% endif %}
-    <div class="weblog-main-area">
-        {{ c.description }}
-    </div>
-{% endfor %}
+        {% if request.session.authenticated %}
+            &nbsp;
+            <a href="#" onclick="editContraption('{{ c.source.id }}'); return false;">
+                <img src="{% static 'own/img/edit-icon.png' %}"/>
+            </a>
+            <a href="#" onclick="deleteContraption('{{ c.source.id }}'); return false;">
+                <img src="{% static 'own/img/trash.png' %}" />
+            </a>
+        {% endif %}
+        <div class="post-content">
+            {{ c.description }}
+        </div>
+    {% endfor %}
+</div>
