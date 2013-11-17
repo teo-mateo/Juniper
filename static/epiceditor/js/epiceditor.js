@@ -326,7 +326,7 @@
       , _defaultFileSchema
       , _defaultFile
       , defaults = { container: 'epiceditor'
-        , basePath: '../../../../static/epiceditor/'
+        , basePath: 'http://bardici.ro/static/epiceditor/'
         , textarea: undefined
         , clientSideStorage: true
         , localStorageName: 'epiceditor'
