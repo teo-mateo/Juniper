@@ -2,12 +2,17 @@
  * Created by teo on 11/15/13.
  */
 
+function editPage(id){
+    var url = APP_SETTINGS.base_url + 'section/contraptions/get/page/raw/?id='+id;
+    $.getJSON(url, function(data){
+       var x = 1;
+       var editor = new EpicEditor().load();
+    });
+}
 
 function editContraption(id){
-    var docUrl = document.URL;
-    var url = docUrl + 'get/contraption/raw/?id='+id;
+    var url = APP_SETTINGS.base_url + 'section/contraptions/get/contraption/raw/?id='+id;
     $.getJSON(url, function(data){
-        var x = 1;
         $("#edit_contraption_form").find("#id")[0].value = id;
         $("#edit_contraption_form").find("#order")[0].value = data.order;
         $("#edit_contraption_form").find("#title")[0].value = data.title;

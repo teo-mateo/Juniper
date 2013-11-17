@@ -8,7 +8,10 @@ from blog.views.contraptions import \
     section_contraptions_view, \
     section_contraptions_edit, \
     section_contraptions_get_contraption_raw, \
-    section_contraptions_delete_contraption
+    section_contraptions_delete_contraption, \
+    contraption_page_add, \
+    contraption_page_get_raw, \
+    contraption_page_edit
 from blog.views.juniperauth import authenticate, authenticate_logout, csrfmiddlewaretoken
 
 from django import http
@@ -53,6 +56,10 @@ urlpatterns = patterns('',
     url(r'^section/contraptions/view/$', section_contraptions_view, name='section_contraptions_view'),
     url(r'^section/contraptions/get/contraption/raw/$', section_contraptions_get_contraption_raw, name='section_contraptions_get_contraption_raw'),
     url(r'^section/contraptions/delete/contraption/$', section_contraptions_delete_contraption, name='section_contraptions_delete_contraption'),
+
+    url(r'^section/contraptions/page/add/$', contraption_page_add, name='contraption_page_add'),
+    url(r'^section/contraptions/get/page/raw/$', contraption_page_get_raw, name='contraption_page_get_raw'),
+    url(r'^section/contraptions/page/edit/$', contraption_page_edit, name='contraption_page_edit'),
 
     url(r'^section/contact/$', contact, name='section_contact'),
     url(r'^section/weblog/entry/([\w\-. ]+)$', section_weblog_entry, name='section_weblog_entry'),

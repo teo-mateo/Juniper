@@ -1,0 +1,83 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'jquery-ui/themes/base/jquery-ui.css' %}" />
+<script src="{% static 'jquery-ui/ui/jquery-ui.js' %}" type="text/javascript"></script>
+<script src="{% static 'own/js/contraptions.js' %}" type="text/javascript"></script>
+<script src="{% static 'epiceditor/js/epiceditor.js' %}" type="text/javascript"></script>
+<script src="{% static 'purl/purl.js' %}" type="text/javascript"></script>
+
+<br>
+<br>
+<div class="right-hand">
+    <p class="section-title"> Contraptions </p>
+    Edit a contraption page.
+    {% include 'authenticate.html' %}
+</div>
+
+<a href="{% url 'section_contraptions_view' %}?id={{ contraption.source.id }}" class="post-title">
+    {{ contraption.title }}
+</a>
+<br />
+<br />
+<div class="weblog-content">
+    <form id="edit_page_form" method="POST" action="{% url 'contraption_page_edit' %}">
+        {% csrf_token %}
+        <input type="hidden" name="content" id="content" value="{{ page.content }}" />
+        <input type="hidden" name="pageid" id="pageid" value="{{ page.source.id }}" />
+        <table>
+            <tr>
+                <td>
+                    Order:
+                </td>
+                <td>
+                    <input type="text" name="order" id="order" value="{{ page.order }}" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Title:
+                </td>
+                <td>
+                    <input type="text" name="title" id="title" value="{{ page.title }}"/>
+                </td>
+            </tr>
+        </table>
+        <div>Content:</div>
+        <div id="epiceditor" style="height: 300px"></div>
+
+        <button type="button" class="btn btn-default btn-lg" style="float:right; margin: 5px;" id="save_btn">
+                <span class="glyphicon glyphicon-floppy-disk"></span> Save
+        </button>
+
+        <button type="button" class="btn btn-default btn-lg" style="float:right; margin: 5px;" id="cancel_btn">
+                <span class="glyphicon glyphicon-arrow-left"></span> Cancel
+        </button>
+
+    </form>
+</div>
+
+<script type="text/javascript">
+    var editor;
+    var id = $.url().param('pageid');
+    var url = APP_SETTINGS.base_url + 'section/contraptions/get/page/raw/?id='+id;
+    $.getJSON(url, function(data){
+        editor = new EpicEditor().load();
+        editor.importFile('epiceditor', data.content);
+    });
+
+    $(document).ready(function(event){
+        //save click
+        $("#save_btn")[0].onclick = function(event){
+            console.info('clicked save.');
+            $("#content")[0].value = editor.exportFile('epiceditor');
+            $('#edit_page_form')[0].submit();
+        };
+        //cancel click
+        $("#cancel_btn")[0].onclick = function(event){
+            var id = $.url().param('contraptionid');
+            var url = APP_SETTINGS.base_url + 'section/contraptions/view/?id='+id;
+            window.location.href = url;
+        }
+    });
+
+</script>

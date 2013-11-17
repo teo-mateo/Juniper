@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="{% static 'jquery-ui/themes/base/jquery-ui.css' %}" />
 <script src="{% static 'jquery-ui/ui/jquery-ui.js' %}" type="text/javascript"></script>
 <script src="{% static 'own/js/contraptions.js' %}" type="text/javascript"></script>
+<script src="{% static 'epiceditor/js/epiceditor.js' %}" type="text/javascript"></script>
 
 <br>
 <br>
@@ -14,11 +15,30 @@
 
 
 <!-- view a contraption -->
-    <div class="weblog-content">
-        <a href="{% url 'section_contraptions_view' %}?id={{ contraption.source.id }}" class="post-title">
-            {{ contraption.title }}
+<div class="weblog-content">
+    <a href="{% url 'section_contraptions_view' %}?id={{ contraption.source.id }}" class="post-title">
+        {{ contraption.title }}
+    </a>
+    {% if request.session.authenticated %}
+        | <a href="{% url 'contraption_page_add' %}?contraptionid={{ contraption.source.id }}">
+           <img src="{% static 'own/img/plus.png'%}"> Add page
         </a>
-        <br />  <br />
-        {{ contraption.description }}
-    </div>
+    {% endif %}
+    <br />  <br />
+    {{ contraption.description }}
+
+    {% for p in contraption.pages %}
+        <div class="highlight">
+            <a href="#">{{ p.title }}</a>
+            {% if request.session.authenticated %}
+                &nbsp;
+                <a href="{% url 'contraption_page_edit' %}?contraptionid={{ contraption.source.id }}&pageid={{ p.source.id }}" ><img src="{% static 'own/img/edit-icon.png' %}"/></a>
+                <a href="#" onclick="deletePage('{{ contraption.source.id }}', '{{ p.source.id1 }}'); return false;"><img src="{% static 'own/img/trash.png' %}" /></a>
+            {% endif %}
+        </div>
+    {% endfor %}
+
+<div id="epiceditor"></div>
+
+</div>
 
