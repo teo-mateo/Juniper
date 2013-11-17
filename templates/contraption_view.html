@@ -29,7 +29,7 @@
 
     {% for p in contraption.pages %}
         <div class="highlight">
-            <h4><a href="#">{{ p.title }}</a>
+            <h4 class="page-title"><a href="#">{{ p.title }}</a>
             {% if request.session.authenticated %}
                 &nbsp;
                 <a href="{% url 'contraption_page_edit' %}?contraptionid={{ contraption.source.id }}&pageid={{ p.source.id }}" ><img src="{% static 'own/img/edit-icon.png' %}"/></a>

@@ -50,6 +50,12 @@ background-repeat:repeat;
     margin-top:10px;
     padding-left: 50px;
 }
+.page-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size:1.2em;
+    color:#5a5a5a;
+    border-bottom: 1px dashed #888;
+}
 .post-tags
 {
     /*float:left;*/
