@@ -29,12 +29,16 @@
 
     {% for p in contraption.pages %}
         <div class="highlight">
-            <a href="#">{{ p.title }}</a>
+            <h4><a href="#">{{ p.title }}</a>
             {% if request.session.authenticated %}
                 &nbsp;
                 <a href="{% url 'contraption_page_edit' %}?contraptionid={{ contraption.source.id }}&pageid={{ p.source.id }}" ><img src="{% static 'own/img/edit-icon.png' %}"/></a>
                 <a href="#" onclick="deletePage('{{ contraption.source.id }}', '{{ p.source.id1 }}'); return false;"><img src="{% static 'own/img/trash.png' %}" /></a>
             {% endif %}
+            </h4>
+            <div class="post-content">
+                {{ p.content }}
+            </div>
         </div>
     {% endfor %}
 
