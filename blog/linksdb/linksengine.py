@@ -36,7 +36,7 @@ class ContraptionHtml:
         self.title = contraption.title
         self.description = None
         if contraption.description <> None:
-            self.description = mark_safe(markdown.markdown(contraption.description))
+            self.description = mark_safe(markdown.markdown(contraption.description, ['tables']))
         self.pages = []
         for p in contraption.pages:
             self.pages.append(PageHtml(p))
@@ -48,7 +48,7 @@ class PageHtml:
         self.title = page.title
         self.content = None
         if page.content <> None:
-            self.content = mark_safe(markdown.markdown(page.content))
+            self.content = mark_safe(markdown.markdown(page.content, ['tables']))
         self.lastModified = page.lastModified
 
 if __name__ == "__main__":
