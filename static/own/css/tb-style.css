@@ -42,6 +42,14 @@ background-repeat:repeat;
     font-size:1em;
     margin-top:10px;
 }
+.page-content
+{
+    position:relative;
+    font-family: 'Open Sans', sans-serif;
+    font-size:0.9em;
+    margin-top:10px;
+    padding-left: 50px;
+}
 .post-tags
 {
     /*float:left;*/
