@@ -51,10 +51,11 @@ background-repeat:repeat;
     padding-left: 50px;
 }
 .page-title {
+    margin-top:20px;
     font-family: 'Open Sans', sans-serif;
     font-size:1.2em;
     color:#5a5a5a;
-    border-bottom: 1px dashed #888;
+    border-bottom: 1px dotted #888;
 }
 .post-tags
 {
