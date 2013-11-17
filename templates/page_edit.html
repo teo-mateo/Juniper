@@ -22,7 +22,7 @@
 <div class="weblog-content">
     <form id="edit_page_form" method="POST" action="{% url 'contraption_page_edit' %}">
         {% csrf_token %}
-        <input type="hidden" name="content" id="content" value="{{ page.content }}" />
+        <input type="hidden" name="content" id="content" value="" />
         <input type="hidden" name="pageid" id="pageid" value="{{ page.source.id }}" />
         <table>
             <tr>
