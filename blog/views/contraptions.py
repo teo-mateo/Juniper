@@ -49,10 +49,13 @@ def section_contraptions_delete_contraption(request):
     log = logging.getLogger(__name__)
     log.info("we're trying to delete a contraption.");
     if request.method == 'GET':
-        id_param = request.GET.get('id', None)
-        if id_param <> None:
-            Contraption.objects(id=id_param)[0].delete()
-            return HttpResponse(json.dumps({"status": "ok"}), mimetype="application/json")
+        if request.session['authenticated'] == True:
+            id_param = request.GET.get('id', None)
+            if id_param <> None:
+                Contraption.objects(id=id_param)[0].delete()
+                return HttpResponse(json.dumps({"status": "ok"}), mimetype="application/json")
+
+    return HttpResponseRedirect(reverse('section_contraptions'))
 
 def section_contraptions_view(request):
     log = logging.getLogger(__name__)
