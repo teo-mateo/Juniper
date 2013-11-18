@@ -20,8 +20,8 @@ def section_contraptions(request):
 
 
     ctx = RequestContext(request)
-    ctx["section"] = 'contraptions'
-
+    ctx["section"] = "contraptions"
+    ctx["page_title"] = "Contraptions"
     #transform the markdown content to html
     contraptions = Contraption.objects.order_by('order')
     ctx["contraptions"] = []
@@ -60,10 +60,12 @@ def section_contraptions_view(request):
 
     ctx = RequestContext(request)
     ctx["section"] = 'contraption_view'
+
     if request.method == 'GET':
         id_param = request.GET.get('id', None)
         if id_param <> None:
             ctx['contraption'] = ContraptionHtml(Contraption.objects(id=id_param)[0])
+            ctx["page_title"] = ctx["contraption"].title
 
     t = get_template("index.html")
     html = t.render(ctx)
@@ -150,7 +152,7 @@ def contraption_page_edit(request):
         ctx['section'] = 'page_edit'
         ctx['contraption'] = ContraptionHtml(c)
         ctx['page'] = PageHtml(p)
-
+        ctx['page_title'] = p.title
         t = get_template("index.html")
         html = t.render(ctx)
         return render(request, "index.html", ctx)

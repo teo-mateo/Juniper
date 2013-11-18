@@ -16,8 +16,9 @@ def section_links(request):
 
     ctx = RequestContext(request)
     ctx["section"] = 'links'
-    ctx['links'] = Link.objects
-    ctx['all_tags'] = LinkTag.objects
+    ctx["links"] = Link.objects
+    ctx["all_tags"] = LinkTag.objects
+    ctx["page_title"] = "Links"
     t = get_template("index.html")
     html = t.render(ctx)
     return render(request, "index.html", ctx)
