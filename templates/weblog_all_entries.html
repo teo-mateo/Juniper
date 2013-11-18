@@ -6,7 +6,9 @@
 {% for entry in md_entries %}
     {% if entry.post_visible %}
         <div class="weblog-content">
-            <h3 class="post-title">{{ entry.post_title }}</h3>
+            <a href="{% url 'section_weblog' %}entry/{{ entry.md_file }}">
+                <h3 class="post-title">{{ entry.post_title }}</h3>
+            </a>
 
             <span class="post-date">{{ entry.post_date }}</span>
             {% if entry.post_tags %}
