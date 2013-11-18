@@ -23,11 +23,8 @@ function editContraption(id){
 }
 
 function deleteContraption(id){
-    var docUrl = document.URL;
-    var url = docUrl + 'delete/contraption/?id='+id;
-    $.getJSON(url, function(data){
-       location.reload();
-    });
+    $("#dialog-confirm")[0].dataset["customdata"] = id;
+    $("#dialog-confirm").dialog("open");
 }
 
 $(document).ready(function(){
@@ -35,11 +32,21 @@ $(document).ready(function(){
         .dialog({
             autoOpen: false,
             resizable: false,
-            height:140,
+            height:240,
+            width: 500,
             modal: true,
             buttons: {
                 "Delete item": function() {
-                $( this ).dialog( "close" );
+                    var id = $(this)[0].dataset['customdata'];
+                    var docUrl = document.URL;
+                    var url = docUrl + 'delete/contraption/?id='+id;
+                    $.getJSON(url, function(data){
+                        location.reload();
+                        });
+
+                    delete $( this )[0].dataset['customdata'];
+
+                    $( this ).dialog( "close" );
                 },
                 Cancel: function() {
                 $( this ).dialog( "close" );
