@@ -23,7 +23,19 @@ function editContraption(id){
 }
 
 function deleteContraption(id){
-    $("#dialog-confirm")[0].dataset["customdata"] = id;
+    var dialog = $("#dialog-confirm")[0];
+    dialog.dataset["delete_what"] = "contraption";
+    dialog.dataset["delete_url"] = "section/contraptions/delete/contraption/";
+    dialog.dataset["delete_id"] = id;
+    $("#dialog-confirm").dialog("open");
+}
+
+function deletePage(cid, pid){
+    var dialog = $("#dialog-confirm")[0];
+    dialog.dataset["delete_what"] = "page";
+    dialog.dataset["delete_url"] ="section/contraptions/page/delete/";
+    dialog.dataset["delete_cid"] = cid;
+    dialog.dataset["delete_pid"] = pid;
     $("#dialog-confirm").dialog("open");
 }
 
@@ -37,14 +49,31 @@ $(document).ready(function(){
             modal: true,
             buttons: {
                 "Delete item": function() {
-                    var id = $(this)[0].dataset['customdata'];
-                    var docUrl = document.URL;
-                    var url = docUrl + 'delete/contraption/?id='+id;
-                    $.getJSON(url, function(data){
-                        location.reload();
-                        });
+                    var delete_what     = $(this)[0].dataset["delete_what"];
+                    if (delete_what == "contraption"){
+                        var id          = $(this)[0].dataset["delete_id"];
+                        var delete_url  = $(this)[0].dataset["delete_url"];
+                        var url         = APP_SETTINGS.base_url + delete_url +"?id="+id;
+                        $.getJSON(url, function(data){
+                            location.reload();
+                            });
 
-                    delete $( this )[0].dataset['customdata'];
+                        delete $( this )[0].dataset["delete_id"];
+                        delete $( this )[0].dataset["delete_url"];
+                    } else if (delete_what == "page"){
+                        var cid         = $(this)[0].dataset["delete_cid"];
+                        var pid         = $(this)[0].dataset["delete_pid"];
+                        var delete_url  = $(this)[0].dataset["delete_url"];
+                        var url         = APP_SETTINGS.base_url + delete_url +"?cid="+cid+"&pid="+pid;
+                        $.getJSON(url, function(data){
+                            location.reload();
+                            });
+
+                        delete $( this )[0].dataset["delete_cid"];
+                        delete $( this )[0].dataset["delete_pid"];
+                        delete $( this )[0].dataset["delete_url"];
+                        delete $( this )[0].dataset["delete_what"];
+                    }
 
                     $( this ).dialog( "close" );
                 },
@@ -97,3 +126,19 @@ $(document).ready(function(){
             }
         });
 });
+
+function togglePageVisibility(event, id){
+    var plusminus_id = "plusminus_" + id;
+    var plusminus = $("#plusminus_" + id)[0];
+
+    var page_content_id = "page_content_" + id;
+    var page_content = $("#"+page_content_id)[0];
+
+    if (page_content.style.display == "none"){
+        page_content.style.display = "block";
+        plusminus.innerHTML = "-";
+    } else {
+        page_content.style.display = "none";
+        plusminus.innerHTML = "+";
+    }
+}

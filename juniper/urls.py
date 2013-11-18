@@ -10,6 +10,7 @@ from blog.views.contraptions import \
     section_contraptions_get_contraption_raw, \
     section_contraptions_delete_contraption, \
     contraption_page_add, \
+    contraption_page_delete, \
     contraption_page_get_raw, \
     contraption_page_edit
 from blog.views.juniperauth import authenticate, authenticate_logout, csrfmiddlewaretoken
@@ -60,6 +61,7 @@ urlpatterns = patterns('',
     url(r'^section/contraptions/page/add/$', contraption_page_add, name='contraption_page_add'),
     url(r'^section/contraptions/get/page/raw/$', contraption_page_get_raw, name='contraption_page_get_raw'),
     url(r'^section/contraptions/page/edit/$', contraption_page_edit, name='contraption_page_edit'),
+    url(r'^section/contraptions/page/delete/$', contraption_page_delete, name="contraption_page_delete"),
 
     url(r'^section/contact/$', contact, name='section_contact'),
     url(r'^section/weblog/entry/([\w\-. ]+)$', section_weblog_entry, name='section_weblog_entry'),

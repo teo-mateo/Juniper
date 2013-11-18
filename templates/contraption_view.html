@@ -29,14 +29,21 @@
 
     {% for p in contraption.pages %}
         <div class="highlight">
-            <h4 class="page-title"><a href="#">{{ p.title }}</a>
+
+            <h4 class="page-title">
+                <a href="#" onclick="togglePageVisibility(event, '{{ p.source.id }}' ); return false;"
+                      id="plusminus_{{ p.source.id }}"
+                      name="plusminus_{{ p.source.id }}"
+                      style="cursor:hand;">+</a>
+                <a href="#" onclick="togglePageVisibility(event, '{{ p.source.id }}' ); return false;">{{ p.title }}</a>
             {% if request.session.authenticated %}
                 &nbsp;
                 <a href="{% url 'contraption_page_edit' %}?contraptionid={{ contraption.source.id }}&pageid={{ p.source.id }}" ><img src="{% static 'own/img/edit-icon.png' %}"/></a>
-                <a href="#" onclick="deletePage('{{ contraption.source.id }}', '{{ p.source.id1 }}'); return false;"><img src="{% static 'own/img/trash.png' %}" /></a>
+                <a href="#" onclick="deletePage('{{ contraption.source.id }}', '{{ p.source.id }}'); return false;"><img src="{% static 'own/img/trash.png' %}" /></a>
             {% endif %}
             </h4>
-            <div class="page-content">
+            <div class="page-content" id="page_content_{{ p.source.id }}" name="page_content_{{ p.source.id }}"
+                    style="display:none;">
                 {{ p.content }}
             </div>
         </div>
@@ -44,6 +51,10 @@
 
 <div id="epiceditor"></div>
 
+
+<div id="dialog-confirm" title="Delete this item?">
+  <p><span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0;"></span>These item will be permanently deleted and cannot be recovered. Are you sure?</p>
+</div>
 
 <br/><br/>
     <div id="disqus_thread"></div>

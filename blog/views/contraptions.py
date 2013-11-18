@@ -57,6 +57,22 @@ def section_contraptions_delete_contraption(request):
 
     return HttpResponseRedirect(reverse('section_contraptions'))
 
+def contraption_page_delete(request):
+    log = logging.getLogger(__name__)
+    log.info("we're trying to delete a page.")
+    if request.method == "GET":
+        if request.session["authenticated"] == True:
+            pid_param = request.GET.get("pid", None)
+            cid_param = request.GET.get("cid", None)
+            if cid_param <> None and pid_param <> None:
+                c = Contraption.objects(id=cid_param)[0]
+                p = Page.objects(id=pid_param)[0]
+                c.pages.remove(p)
+                c.save()
+                p.delete()
+                return HttpResponse(json.dumps({"status": "ok"}), mimetype="application/json")
+
+
 def section_contraptions_view(request):
     log = logging.getLogger(__name__)
     log.info("we're trying to view a contraption")
