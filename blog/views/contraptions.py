@@ -28,7 +28,7 @@ def section_contraptions(request):
     for c in contraptions:
         if c.visible:
             ctx["contraptions"].append(ContraptionHtml(c))
-        elif request.session['authenticated'] == True:
+        elif request.session.__contains__('authenticated') and request.session['authenticated'] == True:
             ctx["contraptions"].append(ContraptionHtml(c))
 
     t = get_template("index.html")

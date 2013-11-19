@@ -40,6 +40,14 @@ function deletePage(cid, pid){
 }
 
 $(document).ready(function(){
+
+    if (window.location.hash) {
+        var hash = window.location.hash.slice(1);
+        window.location.hash ="";
+        var page_content = togglePageVisibility(null, hash);
+        page_content.scrollIntoView(true);
+    }
+
     $("#dialog-confirm")
         .dialog({
             autoOpen: false,
@@ -141,4 +149,6 @@ function togglePageVisibility(event, id){
         page_content.style.display = "none";
         plusminus.innerHTML = "+";
     }
+
+    return page_content;
 }

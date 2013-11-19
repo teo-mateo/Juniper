@@ -29,13 +29,17 @@
 
     {% for p in contraption.pages %}
         <div class="highlight">
-
+            <a name="{{ p.source.id }}"></a>
             <h4 class="page-title">
-                <a href="#" onclick="togglePageVisibility(event, '{{ p.source.id }}' ); return false;"
+                <a href="#" onclick="togglePageVisibility(event, '{{ p.source.id }}' ); return false; "
                       id="plusminus_{{ p.source.id }}"
                       name="plusminus_{{ p.source.id }}"
                       style="cursor:hand;">+</a>
-                <a href="#" onclick="togglePageVisibility(event, '{{ p.source.id }}' ); return false;">{{ p.title }}</a>
+                <a
+                        href="#{{ p.source.id }}"
+                        onclick="togglePageVisibility(event, '{{ p.source.id }}' ); return false;"
+
+                        >{{ p.title }}</a>
             {% if request.session.authenticated %}
                 &nbsp;
                 <a href="{% url 'contraption_page_edit' %}?contraptionid={{ contraption.source.id }}&pageid={{ p.source.id }}" ><img src="{% static 'own/img/edit-icon.png' %}"/></a>
