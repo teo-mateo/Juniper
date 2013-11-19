@@ -18,8 +18,29 @@
     <hr/>
 {% endif %}
 
+
+
+<div class="weblog-content">
+
+    <!-- list a contraption -->
+    {% for c in contraptions %}
+        <a href="{% url 'section_contraptions_view' %}?id={{ c.source.id }}" class="post-title">
+            {{ c.title }}
+        </a>
+        <span class="lighter-title"> | {{ c.pages | length }} page(s)</span>
+        {% if request.session.authenticated %}
+            &nbsp;
+            <a href="#" onclick="editContraption('{{ c.source.id }}'); return false;"><img src="{% static 'own/img/edit-icon.png' %}"/></a>
+            <a href="#" onclick="deleteContraption('{{ c.source.id }}'); return false;"><img src="{% static 'own/img/trash.png' %}" /></a>
+        {% endif %}
+        <div class="post-content">
+            {{ c.description }}
+        </div>
+    {% endfor %}
+</div>
+
 <!--these jquery ui stuff, should not be visible.-->
-<div style="visibility: collapse;">
+<div style="display:none;">
 
     <div id="create_contraption_container" title="Create contraption">
         <form id="create_contraption_form" action="{% url 'section_contraptions_add' %}" method="post">
@@ -68,23 +89,4 @@
       <p><span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0;"></span>These item will be permanently deleted and cannot be recovered. Are you sure?</p>
     </div>
 
-</div>
-
-<div class="weblog-content">
-
-    <!-- list a contraption -->
-    {% for c in contraptions %}
-        <a href="{% url 'section_contraptions_view' %}?id={{ c.source.id }}" class="post-title">
-            {{ c.title }}
-        </a>
-        <span class="lighter-title"> | {{ c.pages | length }} page(s)</span>
-        {% if request.session.authenticated %}
-            &nbsp;
-            <a href="#" onclick="editContraption('{{ c.source.id }}'); return false;"><img src="{% static 'own/img/edit-icon.png' %}"/></a>
-            <a href="#" onclick="deleteContraption('{{ c.source.id }}'); return false;"><img src="{% static 'own/img/trash.png' %}" /></a>
-        {% endif %}
-        <div class="post-content">
-            {{ c.description }}
-        </div>
-    {% endfor %}
 </div>
