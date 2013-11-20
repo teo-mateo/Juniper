@@ -41,9 +41,13 @@ function deletePage(cid, pid){
 
 $(document).ready(function(){
 
-    $("[id^=anchor]").waypoint(function(){
-        $(window).scrollTop($(window).scrollTop()-40);
-    });
+    try {
+        $("[id^=anchor]").waypoint(function(){
+            $(window).scrollTop($(window).scrollTop()-40);
+        });
+    } catch (exception){
+        console.error(exception.message);
+    }
 
     if (window.location.hash) {
         var hash = window.location.hash.slice(1);
