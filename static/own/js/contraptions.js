@@ -41,9 +41,13 @@ function deletePage(cid, pid){
 
 $(document).ready(function(){
 
+    $("[id^=anchor]").waypoint(function(){
+        $(window).scrollTop($(window).scrollTop()-40);
+    });
+
     if (window.location.hash) {
         var hash = window.location.hash.slice(1);
-        window.location.hash ="";
+        //window.location.hash ="";
         var page_content = togglePageVisibility(null, hash);
         page_content.scrollIntoView(true);
     }

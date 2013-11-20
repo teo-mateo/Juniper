@@ -6,6 +6,8 @@ from juniper import settings
 def check_passphrase(provided):
     try:
         mc = MongoClient(settings.MONGO_DB_IP, settings.MONGO_DB_PORT)
+        if settings.MONGO_DB_AUTH == True:
+            mc.linksdb.authenticate(settings.MONGO_DB_USER, settings.MONGO_DB_PWD)
         db = mc.linksdb
         settings_col = db.settings
         obj_from_db = settings_col.find_one({'key':'passphrase'})

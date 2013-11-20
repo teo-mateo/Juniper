@@ -3,8 +3,9 @@ __author__ = 'teo'
 from mongoengine import *
 import markdown
 from django.utils.safestring import mark_safe
+from juniper import settings
 
-connect('linksdb')
+connect('linksdb', username=settings.MONGO_DB_USER, password=settings.MONGO_DB_PWD)
 
 class LinkTag(Document):
     tag = StringField(required=True)
