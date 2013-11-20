@@ -204,11 +204,3 @@ LOGGING = {
 # Custom settings
 
 TEMPLATE_CONTEXT_PROCESSORS = global_settings.TEMPLATE_CONTEXT_PROCESSORS + ('django.core.context_processors.request',)
-
-
-
-
-MONGO_DB_IP = '127.0.0.1'
-MONGO_DB_PORT = 27017
-
-
