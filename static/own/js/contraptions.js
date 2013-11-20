@@ -41,20 +41,7 @@ function deletePage(cid, pid){
 
 $(document).ready(function(){
 
-    try {
-        $("[id^=anchor]").waypoint(function(){
-            $(window).scrollTop($(window).scrollTop()-40);
-        });
-    } catch (exception){
-        console.error(exception.message);
-    }
 
-    if (window.location.hash) {
-        var hash = window.location.hash.slice(1);
-        //window.location.hash ="";
-        var page_content = togglePageVisibility(null, hash);
-        page_content.scrollIntoView(true);
-    }
 
     $("#dialog-confirm")
         .dialog({
