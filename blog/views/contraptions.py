@@ -160,6 +160,7 @@ def contraption_page_add(request):
             )
             p.save()
             c.pages.append(p)
+            c.last_modified = datetime.datetime.now
             c.save()
 
     return HttpResponseRedirect(request.META['HTTP_REFERER'])
@@ -183,6 +184,7 @@ def contraption_page_edit(request):
         return render(request, "index.html", ctx)
     elif request.method == 'POST':
         param_pageid = request.POST.get('pageid', None)
+        # todo: update the contraption's last_modified field when modifying a page.
         param_order = request.POST.get('order', None)
         param_title = request.POST.get('title', None)
         param_content = request.POST.get('content', None)
@@ -191,6 +193,7 @@ def contraption_page_edit(request):
         p.order = param_order
         p.content = param_content
         p.save()
+
 
     return HttpResponseRedirect(request.META['HTTP_REFERER'])
 
