@@ -111,7 +111,8 @@ def section_contraptions_add(request):
             title = form_title,
             description = form_description,
             visible = form_visible,
-            created_at = datetime.datetime.now)
+            created_at = datetime.datetime.now,
+            last_modified = datetime.datetime.now)
             #contraption_no = contraption_no)
         c.save()
 
@@ -136,7 +137,8 @@ def section_contraptions_edit(request):
         c.order = form_order
         c.title = form_title
         c.description = form_description
-        c.visible = form_visible;
+        c.visible = form_visible
+        c.last_modified = datetime.datetime.now
         c.save()
 
     return HttpResponseRedirect(reverse('section_contraptions'))

@@ -57,6 +57,11 @@ background-repeat:repeat;
     color:#5a5a5a;
     border-bottom: 1px dotted #888;
 }
+.lighter-title {
+    font-family: 'Open Sans', sans-serif;
+    font-size:0.8em;
+    color:#5a5a5a;
+}
 .post-tags
 {
     /*float:left;*/

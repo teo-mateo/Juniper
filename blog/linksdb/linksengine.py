@@ -30,6 +30,7 @@ class Contraption(Document):
     visible = BooleanField(required=True)
     created_at = DateTimeField(required=True)
     #contraption_no = IntField(required=True)
+    last_modified = DateTimeField(required=True)
     pages = ListField(ReferenceField(Page))
 
 class ContraptionHtml:

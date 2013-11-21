@@ -25,6 +25,9 @@
            <img src="{% static 'own/img/plus.png'%}"> Add page
         </a>
     {% endif %}
+    <br/>
+    <span class="lighter-title">{{ contraption.pages | length }} page(s) | last modified {{ contraption.source.last_modified }}</span>
+
     <br />  <br />
     {{ contraption.description }}
 
