@@ -23,7 +23,7 @@ def section_contraptions(request):
     ctx["section"] = "contraptions"
     ctx["page_title"] = "Contraptions"
     #transform the markdown content to html
-    contraptions = Contraption.objects.order_by('order')
+    contraptions = Contraption.objects.order_by('-order')
     ctx["contraptions"] = []
     for c in contraptions:
         if c.visible:
@@ -104,11 +104,15 @@ def section_contraptions_add(request):
         else:
             form_visible = False
 
+        #contraption_no = len(Contraption.objects) + 1
+
         c = Contraption(
             order = form_order,
             title = form_title,
             description = form_description,
-            visible = form_visible)
+            visible = form_visible,
+            created_at = datetime.datetime.now)
+            #contraption_no = contraption_no)
         c.save()
 
     return HttpResponseRedirect(reverse('section_contraptions'))

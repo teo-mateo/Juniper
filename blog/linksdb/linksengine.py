@@ -5,7 +5,7 @@ import markdown
 from django.utils.safestring import mark_safe
 from juniper import settings
 
-connect('linksdb', username=settings.MONGO_DB_USER, password=settings.MONGO_DB_PWD)
+connect(settings.MONGO_DB_NAME, username=settings.MONGO_DB_USER, password=settings.MONGO_DB_PWD)
 
 class LinkTag(Document):
     tag = StringField(required=True)
@@ -28,6 +28,8 @@ class Contraption(Document):
     title = StringField(required=True)
     description = StringField(required=False)
     visible = BooleanField(required=True)
+    created_at = DateTimeField(required=True)
+    #contraption_no = IntField(required=True)
     pages = ListField(ReferenceField(Page))
 
 class ContraptionHtml:
@@ -39,6 +41,8 @@ class ContraptionHtml:
         if contraption.description <> None:
             self.description = mark_safe(markdown.markdown(contraption.description, ['tables']))
         self.pages = []
+        self.created_at = contraption.created_at
+        #self.contraption_no = contraption.contraption_no
         for p in contraption.pages:
             self.pages.append(PageHtml(p))
 
