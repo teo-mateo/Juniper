@@ -12,26 +12,26 @@
 
 <div class="container">
 
-<div class="header">
 {% include 'navbar.html' %}
-</div>
 <br />
 
-{% if section == 'weblog' %}
-    {% include 'weblog.html' %}
-{% elif section == 'contraptions' %}
-    {% include 'contraptions.html' %}
-{% elif section == 'contraption_view' %}
-    {% include 'contraption_view.html' %}
-{% elif section == 'page_edit' %}
-    {% include 'page_edit.html' %}
-{% elif section == 'contact' %}
-    {% include 'contact.html' %}
-{% elif section == 'links' %}
-    {% include 'links.html' %}
-{% endif %}
-    
+    <main>
 
+        {% if section == 'weblog' %}
+            {% include 'weblog.html' %}
+        {% elif section == 'contraptions' %}
+            {% include 'contraptions.html' %}
+        {% elif section == 'contraption_view' %}
+            {% include 'contraption_view.html' %}
+        {% elif section == 'page_edit' %}
+            {% include 'page_edit.html' %}
+        {% elif section == 'contact' %}
+            {% include 'contact.html' %}
+        {% elif section == 'links' %}
+            {% include 'links.html' %}
+        {% endif %}
+
+    </main>
 
 </div>
 

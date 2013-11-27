@@ -26,20 +26,22 @@
 
     <!-- list a contraption -->
     {% for c in contraptions %}
-        <a href="{% url 'section_contraptions_view' %}?id={{ c.source.id }}" class="post-title">
-            {{ c.source.order }}. {{ c.title }}
-        </a>
-        {% if request.session.authenticated %}
-            &nbsp; |
-            <a href="#" onclick="editContraption('{{ c.source.id }}'); return false;"><img src="{% static 'own/img/edit-icon.png' %}"/></a>
-            <a href="#" onclick="deleteContraption('{{ c.source.id }}'); return false;"><img src="{% static 'own/img/trash.png' %}" /></a>
-        {% endif %}
-        <br/>
-        <span class="lighter-title">{{ c.pages | length }} page(s) | last modified {{ c.source.last_modified }}</span>
+        <section>
+            <a href="{% url 'section_contraptions_view' %}?id={{ c.source.id }}" class="post-title">
+                {{ c.source.order }}. {{ c.title }}
+            </a>
+            {% if request.session.authenticated %}
+                &nbsp; |
+                <a href="#" onclick="editContraption('{{ c.source.id }}'); return false;"><img src="{% static 'own/img/edit-icon.png' %}"/></a>
+                <a href="#" onclick="deleteContraption('{{ c.source.id }}'); return false;"><img src="{% static 'own/img/trash.png' %}" /></a>
+            {% endif %}
+            <br/>
+            <span class="lighter-title">{{ c.pages | length }} page(s) | last modified {{ c.source.last_modified }}</span>
 
-        <div class="post-content">
-            {{ c.description }}
-        </div>
+            <article class="post-content">
+                {{ c.description }}
+            </article>
+        </section>
     {% endfor %}
 </div>
 

@@ -16,7 +16,7 @@
 
 
 <!-- view a contraption -->
-<div class="weblog-content">
+<article class="weblog-content">
     <a href="{% url 'section_contraptions_view' %}?id={{ contraption.source.id }}" class="post-title">
         {{ contraption.title }}
     </a>
@@ -32,7 +32,7 @@
     {{ contraption.description }}
 
     {% for p in contraption.pages %}
-        <div class="highlight">
+        <section class="highlight">
             <a name="{{ p.source.id }}"></a>
             <h4 class="page-title">
                 <a href="#" onclick="togglePageVisibility(event, '{{ p.source.id }}' ); return false; "
@@ -56,17 +56,18 @@
                     style="display:none;">
                 {{ p.content }}
             </div>
-        </div>
+        </section>
     {% endfor %}
 
-<div id="epiceditor"></div>
+    <div id="epiceditor"></div>
 
 
-<div id="dialog-confirm" title="Delete this item?">
-  <p><span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0;"></span>These item will be permanently deleted and cannot be recovered. Are you sure?</p>
-</div>
+    <div id="dialog-confirm" title="Delete this item?">
+      <p><span class="ui-icon ui-icon-alert" style="float: left; margin: 0 7px 20px 0;"></span>These item will be permanently deleted and cannot be recovered. Are you sure?</p>
+    </div>
 
-<br/><br/>
+    <br/><br/>
+
     <div id="disqus_thread"></div>
     <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -83,5 +84,5 @@
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
-</div>
+</article>
 
