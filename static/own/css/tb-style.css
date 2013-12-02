@@ -134,3 +134,19 @@ h4
     background: rgb(255, 255, 255); /* Fall-back for browsers that don't support rgba */
     background: rgba(255, 255, 255, .8);
 }
+
+
+.circular {
+	width: 72px;
+	height: 72px;
+	border-radius: 36px;
+	-webkit-border-radius: 36px;
+	-moz-border-radius: 36px;
+	background: url('../img/teodor-bardici.jpg') no-repeat;
+    float: left; margin-top:60px; margin-left: 10px; position:fixed;
+	}
+
+.circular img {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	}
