@@ -14,6 +14,7 @@ def index(request):
 def contact(request):
     ctx = Context()
     ctx["section"] = 'contact'
+    ctx["page_title"] = "Contact me"
     t = get_template("index.html")
     html = t.render(ctx)
     return HttpResponse(html)
