@@ -16,7 +16,7 @@ def get_all_entries():
             e = Entry(f)
             e.read()
             entries.append(e)
-    entries.sort(key=lambda x: x.post_date)
+    entries.sort(key=lambda x: x.post_date, reverse=True)
     return entries
 
 
